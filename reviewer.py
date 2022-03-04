@@ -882,6 +882,7 @@ answers3 = [
 
 
 ]
+
 if len(quez2) != len(answers2):
     print("Warning!!! Not equal question to answer lists!")
     print(len(quez2))
@@ -890,51 +891,80 @@ if len(quez2) != len(answers2):
 # for x in range(len(quez2)):
 #     print("Number ", x, quez2[x], "Answer: ", answers2[x])
 
-quez_copy = quez2.copy()
-answers_copy = answers2.copy()
-correct_answers = 0
-wrong_answers = 0
-counter = 1
-
-
-for x in range(len(quez2)):
-    temp = random.choice(range(0, len(quez_copy)))
-    print("Question # {}, {}".format(counter, quez_copy[temp]))
-
-    choice_list = random.choices(answers2, k = 4)
-    if answers_copy[temp] not in choice_list:
-        choice_list[random.randint(0, 3)] = answers_copy[temp]
-
+# Variable quez refers to the index of question/answer in the list
+# answers_copy is a list of the possible answers it'll use
+def create_choices(quez_num, answers_copy):
+    choice_list = random.choices(answers_copy, k = 4)
+    if answers_copy[quez_num] not in choice_list:
+        choice_list[random.randint(0, 3)] = answers_copy[quez_num]
+    
     while(True):
         choice_list = list(set(choice_list))
         if len(choice_list) < 4:
-            choice_list.insert(random.randint(0, len(choice_list)), random.choice(answers2))
+            choice_list.insert(random.randint(0, len(choice_list)), random.choice(answers_copy))
         else:
             break
-    print("Choices: ", choice_list)
-    user_answer = input("Enter your answer: ")
+    
+    return choice_list
 
-    if user_answer == answers_copy[temp]:
-        print("Correct!")
-        correct_answers += 1
+def start_round(quez_choice, ans_choice):
+    quez_copy = quez_choice.copy()
+    answers_copy = ans_choice.copy()
+
+    correct_answers = 0
+    wrong_answers = 0
+    counter = 1
+    for x in range(len(quez_copy)):
+
+        # Picks a random item number based on quez length
+        quez_num = random.choice(range(0, len(quez_copy)))
+        print("Question # {}, {}".format(counter, quez_copy[quez_num]))
+
+        # Create the choices for MC type
+        choice_list = create_choices(quez_num, answers_copy)
+        
+        print("Choices: ", choice_list)
+        user_answer = input("Enter your answer: ")
+
+        # Check if answers are correct
+        if user_answer == answers_copy[quez_num]:
+            print("Correct!")
+            correct_answers += 1
+        else:
+            print("Wrong! Answer is: " , answers_copy[quez_num])
+            wrong_answers += 1
+
+        quez_copy.pop(quez_num)
+        answers_copy.pop(quez_num)
+        counter+=1
+
+    else: # End questions
+        print("Good Work!!")
+        print("Stats: Correct answers:", correct_answers)
+        print("Wrong Answers:", wrong_answers)
+        print("Number of questions", len(quez2))
+
+
+def main():
+    print("Choose which question set you'd like to use:")
+    print("1 - SEN02 Midterms")
+    print("2 - IAS01 Midterms")
+    print("3 - PTF03 Midterms")
+    
+    # I'm too lazy to handle error checking, just assume they put a number
+    choicenum = int(input("Enter: "))
+    
+    if choicenum == 1:
+        start_round(quez, answers)
+    elif choicenum == 2:
+        start_round(quez2, answers2)
+    elif choicenum == 3:
+        start_round(quez3, answers3)
     else:
-        print("Wrong! Answer is: " , answers_copy[temp])
-        wrong_answers += 1
-
-    quez_copy.pop(temp)
-    answers_copy.pop(temp)
-    counter+=1
-else:
-    print("Good Work!!")
-    print("Stats: Correct answers:", correct_answers)
-    print("Wrong Answers:", wrong_answers)
-    print("Number of questions", len(quez2))
-
-    
-    
-    
+        print("Haiyaaaa, you fucked up")
 
 
 
 
 
+main()
