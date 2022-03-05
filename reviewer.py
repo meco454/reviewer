@@ -44,7 +44,7 @@ def start_round(quez_choice, ans_choice):
         user_answer = input("Enter your answer: ")
 
         # Check if answers are correct
-        if user_answer == answers_copy[quez_num]:
+        if user_answer.upper() == answers_copy[quez_num].upper():
             print("Correct!")
             correct_answers += 1
         else:
