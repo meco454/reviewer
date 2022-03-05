@@ -1,0 +1,53 @@
+are computer algorithms that use data to make estimations (educated guesses) or decisions.
+When normal computer software needs to be improved, people ______ itIn the Boots That Fit Scenario, you own a shop that sells _________ for avalanche-rescue dogs
+In the BTF Scenario, you own a shop that sells harnesses for ____________
+A machine learning algorithm uses _____ to get better at a specific task
+A ____________ uses data to get better at a specific task
+Customers all seem to pick the correct harness sizes but are constantly ordering doggy ______ that are the wrong size. 
+ you could approximate which doggy boots are the correct size, depending on the ______ chosen
+ is the core component of machine learning, and ultimately what we are trying to build.
+ might estimate how old a person is from a photo, predict what you might like to see on social media, or decide where a robotic arm should move to.
+machine learning models are shaped by _________
+models learn from?
+Note that harness size and dog boot size are data; they are not part of the model. 
+What is our input in BTF?What is our output in BTF?
+are discovered during training
+ are not selected by the human designer
+ Instead, parameter values are set to an initial guess, and then adjusted during an automated learning process called
+As you can see, we have the sizes of boots and harnesses for _____ avalanche dogs.
+We're just getting started, so we will start with a very simple model called ______. This is just a straight line
+OLS means?
+OLS is just a straight line, sometimes called?
+what do we import for ols?
+forumla for model thingy?
+formula for BTF?
+OLS model assignment thingy?
+OLS models have two parameters, what are they? 
+We need to train (_______) our model to find these values (parameters) so that the model can reliably estimate dogs' boot size based on their harness size.
+The goal of _______ is to improve a model so that it can make high-quality estimations or predictions. 
+Models don't train themselves, they're trained using data plus two pieces of code: the _________, and the optimizer.
+Models don't train themselves, they're trained using data plus two pieces of code: the objective function, and the ___________.
+ is what we want to the model to be able to do
+So that a computer can understand our objective, we need to provide our goal as code snippet called an?
+they judge whether the model is doing a good job (estimating boot size well) or bad job (estimating boot size badly).
+refers to the information that we provide the model with
+data is also known as? also refers to information that the objective function might need
+During training, the model makes a prediction, and the _________ calculates how well it performed
+The _______ is code that then changes the model's parameters so the model will do a better job next time.
+The optimizer is code that then changes the model's ________ so the model will do a better job next time.
+dataset = pandas._________('doggy-boot-harness.csv')
+_____ dataset["sex"] to delete row sex?
+________ a model means providing inputs and receiving an estimation or prediction.
+_______ a model is the process of improving how well a model works
+requires that we use the model, as well as the objective function and optimizer, in a special loop
+Usually, we only train a model how many times?.
+When we use our model, we only need the column(s) of data that the model accepts as input. These columns are called
+During training, the objective function usually needs to know both the model's output and what the correct answer was. These are called
+import _______ ______.dump(model,model_filename)
+joblib._____(model, model_filename)
+3 algorithms for Clustering?
+2 algorithms for Classifcation
+In the Elk Farm Case Scenario, what is the Feature?
+In the Elk Farm Case Scenaio, what is the Label?
+What is the angle of the line
+What moves the line up or down

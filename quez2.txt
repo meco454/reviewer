@@ -1,0 +1,208 @@
+the ongoing effort to protect these networked systems and all of the data from unauthorized use or harm.
+the person who your friends and family interact with on a daily basis at home, at school, or work.
+who you are in cyberspace, how you present yourself to others online.
+any information about you is called?
+Records like Electronic Health Records, physical health, mental health etc.
+information about your grades and test scores, your attendance, courses taken, awards and degrees rewarded, and any disciplinary reports
+may include information about your income and expenditures.
+What gives thieves access to your accounts?
+What do criminals steal for short-term gain?
+What do criminals steal for long-term gain?
+includes personnel information, intellectual properties, and financial data.
+includes application materials, payroll, offer letters, employee agreements, and any information used in making employment decisions.
+such as patents, trademarks and new product plans, allows a business to gain economic advantage over its competitors
+can be considered a trade secret; losing this information can be disastrous for the future of the company.
+allows a business to gain economic advantage over its competitors
+such as income statements, balance sheets, and cash flow statements of a company
+gives insight into the health of the company.
+Types of Organizational Data: 1. __________
+Types of Organizational Data: 2. __________
+IoT means?
+is a large network of physical objects, such as sensors and equipment that extend beyond the traditional computer network.
+This data has created a new area of interest in technology and business called?
+CIA triad? C is what?
+CIA triad? I is what?
+CIA triad? A is what?
+ensures the privacy of data by restricting access through authentication encryption.
+Confidentiality ensures the privacy of data by restricting access through what?
+ assures that the information is accurate and trustworthy.
+ensures that the information is accessible to authorized people.
+What is another term for confidentiality?
+is accuracy, consistency, and trustworthiness of the data during its entire life cycle. 
+Data must be unaltered during transit and not changed by unauthorized entities. 
+ Company policies should restrict access to the information to authorized personnel and ensure that only those authorized individuals view this data.
+The data may be compartmentalized according to the security or sensitivity level of the information. 
+Methods to ensure _______ include data encryption, username ID and password, two factor authentication, and minimizing exposure of sensitive information.
+ File permissions and user access control can prevent unauthorized access. 
+It can be used to prevent accidental changes by authorized users.
+It must be available to restore any corrupted data
+can be used to verify integrity of the data during transfer.
+is used to verify the integrity of files, or strings of characters, after they have been transferred from one device to another across your local network or the Internet.
+are calculated with hash functions.
+uses a mathematical algorithm to transform the data into fixed-length value that represents the data
+Maintaining equipment, performing hardware repairs, keeping operating systems and software up to date, and creating backups ensure the ________ of the network and data to the authorized users.
+occurs when an attacker attempts to overwhelm resources so the services are not available to the users.
+What was the name of the online password manager that detected unusual activity on its network in July 2015?
+The high tech toy maker for children, ________ , suffered a security breach to its database in November 2015. 
+In the Vtech incident what had become a new target for hackers?
+(Vtech) The information was not secured properly, and the company website did not support secure ________________.
+(Vtech)  The passwords in the database were scrambled using ____________
+(Vtech) but the security questions and answers were stored in ___________.
+____________ is one of the nationwide consumer credit reporting agencies in the United States.
+(Equifax Inc.) The attackers exploited a vulnerability in the __________ web application software.
+are individuals or groups who attempt to exploit vulnerability for personal or financial gain.
+are interested in everything, from credit cards to product designs and anything with value.
+These people are sometimes called Script Kiddies
+They are usually attackers with little or no skill, often using existing tools or instructions found on the Internet to launch attacks. 
+Some of them are just curious, while others are trying to demonstrate their skills and cause harm. 
+They may be using basic tools, but the results can still be devastating.
+This group of attackers break into computers or networks to gain access.
+break into networks or computer systems to discover weaknesses so that the security of these systems can be improved. 
+take advantage of any vulnerability for illegal personal, financial or political gain.
+are somewhere between white and black hat attackers. 
+may report the vulnerability to the owners of the system if that action coincides with their agenda.
+These hackers publish the facts about the vulnerability on the Internet so that other attackers can exploit it.
+These hackers include organizations of cyber criminals, hacktivists, terrorists, and state-sponsored hackers.
+are usually groups of professional criminals focused on control, power, and wealth.
+make political statements to create awareness to issues that are important to them.
+gather intelligence or commit sabotage on behalf of their government.
+These attackers are usually highly trained and well-funded
+Their attacks are focused on specific goals that are beneficial to their government
+also have the potential to cause greater damage than external threats
+who use their programming skills for good, ethical and legal purposes.
+may perform network penetration tests in an attempt to compromise networks and systems by using their knowledge of computer security systems to discover network vulnerabilities
+individuals who commit crimes and do arguably unethical things, but not for personal gain or to cause damage.
+An example would be someone who compromises a network without permission and then discloses the vulnerability publicly.
+another important dimension of warfare, where nations can carry out conflicts without the clashes of traditional troops and machines. 
+an Internet-based conflict that involves the penetration of computer systems and networks of other nations.
+malware that was designed to damage Iran's nuclear enrichment plant.
+This malware did not hijack targeted computers to steal information.
+ It was designed to damage physical equipment that was controlled by computers.
+It used modular coding that was programmed to perform a specific task within the malware.
+ It used stolen digital certificates so the attack appeared legitimate to the system
+The purpose of this is to gain advantage over adversaries, whether they are nations or competitors
+any kind of software or hardware defect
+is the term used to describe a program written to take advantage of a known vulnerability.
+The act of using an exploit against a vulnerability
+are usually introduced by errors in the operating system or application code
+The major vulnerability discovered in Cisco IOS
+ This vulnerability allowed attackers to gain control of enterprise-grade routers, such as the legacy Cisco 1841, 2811, and 3825 routers.
+This vulnerability was introduced into the system when an altered IOS version was installed in the routers
+Google formed a permanent team dedicated to finding software vulnerabilities.
+ are often introduced by hardware design flaws.
+What exploit allows data to be retrieved from nearby address memory cells, even if the cells are protected. 
+What exploit repeatedly  rewrites memory in the same addresses
+What exploit was based on the discovery that due to proximity, constant changes applied to one of these capacitors could influence neighbor capacitors 
+are specific to device models and are not generally exploited through random compromising attempts.
+hardware exploits are more common in highly targeted attacks, T or F?traditional malware protection and a physical security are sufficient protection for the everyday user
+This vulnerability occurs when data is written beyond the limits of a buffer.
+are memory areas allocated to an application.
+ By changing data beyond the boundaries of a buffer, the application accesses memory allocated to other processes. This can lead to a system crash, data compromise, or provide escalation of privileges.
+This data coming into the program could have malicious content, designed to force the program to behave in an unintended way.
+The maliciously crafted dimensions could force the program to allocate buffers of incorrect and unexpected sizes.
+This vulnerability is when the output of an event depends on ordered or timed outputs.
+becomes a source of vulnerability when the required ordered or timed events do not occur in the correct order or proper timing.
+ Systems and sensitive data can be protected through techniques such as authentication, authorization, and encryption.
+Developers should not attempt to create their own security algorithms because it will likely introduce vulnerabilities.
+ is the process of controlling who does what and ranges from managing physical access to equipment to dictating who has access to a resource, such as a file, and what they can do with it, such as read or change the file. 
+Nearly all access controls and security practices can be overcome if the attacker has physical access to target equipment.
+Incorrectly regulating who does what and what they can do with resources.
+When a malicious application accesses memory allocated to other processes.
+Malware is _____ Software
+Malware is Malicious ______
+is any code that can be used to steal data, bypass access controls, or cause harm to, or compromise a system.
+This malware is design to track and spy on the user.
+often includes activity trackers, keystroke collection, and data capture. 
+In an attempt to overcome security measures, spyware often modifies security settings.
+Spyware often bundles itself with legitimate software or with Trojan horses.
+is often installed with some versions of software. 
+Some adware is designed to only deliver advertisements but it is also common for adware to come with spyware.
+is malware designed to automatically perform action, usually online.
+Several computers are infected with bots which are programmed to quietly wait for commands provided by the attacker.
+This malware is designed to hold a computer system or the data it contains captive until a payment is made. 
+usually works by encrypting data in the computer with a key unknown to the user. 
+is spread by a downloaded file or some software vulnerability.
+This is a type of malware designed to persuade the user to take a specific action based on fear.
+forges pop-up windows that resemble operating system dialogue windows. 
+ In reality, no problems were assessed or detected and if the user agrees and clears the mentioned program to execute, his or her system will be infected with malware.
+ is designed to modify the operating system to create a backdoor.
+Most of this take advantage of software vulnerabilities to perform privilege escalation and modify system files.
+ It is also common for these to modify system forensics and monitoring tools, making them very hard to detect. 
+ Often, a computer infected by a rootkit must be wiped and reinstalled.
+is malicious executable code that is attached to other executable files, often legitimate programs. 
+Most of these require end-user activation and can activate at a specific time or date.
+These can also be programmed to mutate to avoid detection. 
+is malware that carries out malicious operations under the guise of a desired operation.
+This malicious code exploits the privileges of the user that runs it.
+This differs from a virus because it binds itself to non-executable files.are malicious code that replicate themselves by independently exploiting vulnerabilities in networks. 
+usually slow down networks.
+Whereas a virus requires a host program to run, _____ can run by themselves.
+Other than the initial infection, they no longer require user participation.
+in 2001 the _________ worm had infected 658 servers.
+allows the attacker to take control over a device without the user's knowledge.
+ are widely used to steal financial information.
+is a type of attack used to take control over a mobile device
+When infected, the mobile device can be instructed to exfiltrate user-sensitive information and send it to the attackers.
+ example of an exploit with MitMo capabilities, allows attackers quietly to capture 2-step verification SMS messages sent to users.
+ is an access attack that attempts to manipulate individuals into performing actions or divulging confidential information. 
+ often rely on people's willingness to be helpful but also prey on people's weaknesses. 
+This is when an attacker calls an individual and lies to them in an attempt to gain access to privileged data.
+An example involves an attacker who pretends to need personal or financial data in order to confirm the identity of the recipient.
+This is when an attacker quickly follows an authorized person into a secure location.
+Another term for something for something
+Quid pro quo means?
+This is when an attacker requests personal information from a party in exchange for something, like a free gift.
+is the process of discovering the password used to protect a wireless network. 
+The attacker manipulates a person who knows the password into providing it.
+The attacker tries several possible passwords in an attempt to guess the password. 
+By listening and capturing packets sent on the network, an attacker may be able to discover the password if the password is being sent unencrypted
+ is when a malicious party sends a fraudulent email disguised as being from a legitimate, trusted source. 
+ is a highly targeted phishing attack.
+emails are customized to a specific person.
+a public Internet database containing information about domain names and their registrants.
+ a popular port scanner
+APT means?
+They consist of a multi-phase, long term, stealthy and advanced operation against a specific target
+The purpose of this is to deploy customized malware on one or multiple of the target's systems and remain undetected
+results in some sort of interruption of network service to users, devices, or applications.
+This is when a network, host, or application is sent an enormous quantity of data at a rate which it cannot handle
+This causes a slowdown in transmission or response, or a crash of a device or service.
+This is when a maliciously formatted packet is sent to a host or application and the receiver is unable to handle it. 
+ For example, an attacker forwards packets containing errors that cannot be identified by the application, or forwards improperly formatted packets. This causes the receiving device to run very slowly or crash.
+are considered a major risk because they can easily interrupt communication and cause significant loss of time and money.
+ These attacks are relatively simple to conduct, even by an unskilled attacker.
+is similar to a DoS attack but originates from multiple, coordinated sources
+What is a network of infected hosts?
+What are the infected hosts of a botnet called?
+What controls a zombie in a botnet?
+SEO means?
+is a set of techniques used to improve a website's ranking by a search engine.
+ a malicious user could use SEO to make a malicious website appear higher in search results.
+The goal of this is to increase traffic to malicious sites that may host malware or perform social engineering.
+are attacks that use multiple techniques to compromise a target. 
+By using several different attack techniques at once, attackers have malware that are a hybrid of worms, Trojan horses, spyware, keyloggers, spam and phishing schemes.
+store your data and are the portal to your online life. 
+a web-based IoT device scanner.
+SSID means?
+This exploit takes advantage of This flaw allows an intruder to break the encryption between the wireless router and the wireless client, and allow the intruder to access and manipulate the network traffic.
+someone intercepting your information is also known as?
+ is the process of converting the information into a form where an unauthorized party cannot read it. 
+ The encryption itself does not prevent someone from intercepting the data.
+can only prevent an unauthorized person from viewing or accessing the content.
+is a Windows feature that can encrypt data.
+NAS means?
+AWS means?
+What program writes zeroes and ones to your files to erase data? (Windows)
+What program writes zeroes and ones to your files to erase data? (Linux)
+What program writes zeroes and ones to your files to erase data? (Mac OSX)
+PIN means?
+ Examples are credit card, ATM card, phone, or fob
+fingerprint, palm print, as well as facial or voice recognition
+is an open standard protocol that allows an end user's credentials to access third party applications without exposing the user's password
+OAuth means?
+acts as the middle man to decide whether to allow end users access to third party applications. 
+Private browser name for Microsoft Internet Explorer?
+Private browser name for Google Chrome?
+Private browser name for Mozilla Firefox?
+Private browser name for Safari?
+SSL means?

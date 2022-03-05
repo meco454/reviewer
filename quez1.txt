@@ -1,0 +1,159 @@
+Type of work ability which is the study of user behavior that people like or dislike the new software.
+This is one of the Software Quality Metrics. As the name suggests, these metrics take the count of defects found in each sprint. This is a very simple yet useful metrics for assessing the quality of the user stories delivered during any sprint.
+This is one of the steps in developing a software system. With the help of this we can convert the shape structure in to a programming language. Every part of the design is a program module. 
+This is one of the Software Quality Metrics. Important metrics especially for mobile apps and online websites. It is a measure of how often the mobile app or website crashes in any environment. It is an indicator of the quality of the code. The better the code, the longer it will be able to sustain without crashing. 
+This is one of the best practices in writing codes. Tall and narrow columns are easy to be read and seem comfortable to the eyes.
+This is one of the Software Quality Metrics. As the name suggests, these metrics take the count of defects found in each sprint. This is a very simple yet metrics for assessing the quality of the user stories delivered during any sprint. 
+This is one of the steps in developing a software system. It is a study of following factors which plays a major role in this step.
+This is one of the Software Quality Metrics. The first measure of the quality of any products is the number of defects found and fixed. Though there a many "conditions apply" cases this is the first ballpark estimate of the quality of the software.
+This is one of the steps in developing a software system. This step is required after that when customer use our software and getting some problems.
+This is one of the Software Quality Metrics. It is defined as the time it takes from the time of project or sprint kick-off to the completion. In an agile process, we normally pick up user stories that will be delivered at the end of the sprint.
+This is one of the steps in developing a software system. It means providing the information on client site. 
+This is one of the best practices in writing codes. This is done to enhance the readability of the code without modifying the basic functionality of the code.
+This is one of the steps in developing a software system, In this step with the help of this knowledge we find out the errors at the present time software system which is needed to change for improvement. 
+Type of work ability which determine that the new software is under the government rule or not.
+Type of work ability where the new system will be more suitable for the user or not is checked by the expert
+This is one of the best practices in writing codes. It is up to the coders which type of programming style to choose.
+This is one of the best practices in writing codes. It is better to group the tasks in different blocks/functions of code separating them with proper space. You can add a comment at the starting of every block.
+This is one of the best practices in writing codes. While following the standards, take care that you do not comment unnecessarily. Too much explanation will make your code look clumbsy.
+This is one of the steps in developing a software system. During the process of this step need specification converted in to a base, which is used in programming language.
+________ is a part of science in which several kind of method, thoughts and techniques used for getting the high quality software and computer programs.
+We can judge the ___________ of software Engineering with the importance of its attributes.
+We can judge the usefulness of the software Engineering with the ________ of its attributes.
+We can judge the usefulness of the software Engineering with the importance of its _________.
+The basic target of software Engineering is to provide the _____________, which can be delivered.
+The basic target of software Engineering is to provide the high quality software, which can be _________
+Thus we can say that this is the best way or programs to get the following points: 1. To provide the best _______ of software system
+Thus we can say that this is the best way or programs to get the following points: 2. To make _________ the software systems and develop them
+Thus we can say that this is the best way or programs to get the following points: 3. To improve the _____________
+Thus we can say that this is the best way or programs to get the following points: 4. To maintain the _______ of development of Software system
+Thus we can say that this is the best way or programs to get the following points: 5. Job __________ of software engineering
+To achieve consistency, software development process is divided into set of ______
+To achieve _________, software development process is divided into set of phases
+Steps used to develop a software system: 1. ___________
+Steps used to develop a software system: 2. ___________
+Steps used to develop a software system: 3. ___________
+Steps used to develop a software system: 4. ___________
+Steps used to develop a software system: 5. ___________
+Steps used to develop a software system: 6. ___________
+Steps used to develop a software system: 7. ___________
+Steps used to develop a software system: 8. ___________
+In this step, we get more knowledge from everywhere on computer and manually
+In this step, we think about the present system and future system and compared them. The area of comparison is skilled manpower, estimated time period, and other important things.
+Do we have the required technology? With the available tools can we developed the new system? Can the future system provide the result as required?
+This factor is determined that new software benefits and savings is more in the comparison of old software.
+Determined that the new software is under the govt. rule or not
+During this process several kind of tools and method used .flow chart, collected data, diagram and etc. are the part of this exercise. After the resolution of all problems and needs regarding this, information is organized into a ____________.
+Takes place after analysis of structured.
+In this design many kind of object raised in the domain of problem and relationship between these objects is figured out.
+Every part of the design is a _____________
+In this phase as a whole system all modules which are tested jointly according to architectural design.
+For getting the information that interconnection concerned to modules are correct or not this step taken by the developer. 
+We have three types of implementation. 1. ________ 
+We have three types of implementation. 2. ________ 
+We have three types of implementation. 3. ________ 
+During the process of software development corrective fault not found or discovered
+Under this step functions which are performed by this software increased according to the need of customer
+Transform the software to new opearting system, environments or to a new computer
+SDLC means?
+This is the first step where user initiates the request for a desired software product. He contacts the service provider and tries to negotiate the terms. He submits his request to the service providing organization in writing.
+This step onwards the software development team works to carry on the project. The team holds discussions with various stakeholders from problem domain and tries to bring out as much information as possible on their requirements.
+The requirements are contemplated and segregated into _______ requirements, system requirements and functional requirements
+The requirements are contemplated and segregated into user requirements, _______ requirements and functional requirements
+The requirements are contemplated and segregated into user requirements, system requirements and _______ requirements
+After requirement gathering, the team comes up with a rough plan of software process. At this step the team analyzes if a software can be made to fulfill all requirements of the user and if tehre is any possiblity of software being no more useful.
+At this step the developers decide a roadmap of their plan and try to bring up the best software suitable for the project.
+Includes understanding of software product limitations, learning system related problems or changes to be done in existing systems beforehand, identifying and adressing the impact of project on organization and personnel etc.
+Next step is to bring down whole knowledge of requirements and analysis on the desk and design the software product.
+Also known as programming phase. The implementation of software design starts in terms of writing program code in the suitable programming language and developing error-free executable programs efficiently.
+An estimate that says that 50 percent of whole software development process should be tested
+Software may need to be integrated with the libraries, databases and other program(s). This stage of SDLC is involved in the integration of software with outer world entities.
+This means installing the software on user machines. At times, software needs post-installation configurations at user end. Software is tested for portability and adaptability and integration related issues are solved during this.
+This phase confirms the software operation in terms of more efficiency and less errors.
+This phase may face challenges from hidden bugs and real-world unidentified problems.
+As time elapses, the software may decline on the performance front. It may go completely obsolete or may need intense upgradation. Hence a pressing need to eliminate a major portion of the system arises.
+This phase includes archiving data and required software components, planning disposition activivity and terminating system at appropriate end-of-system time.
+The _______ helps developer to select a strategy to develop the software
+The software development paradigm helps developer to select a ______ to develop the software.
+_________ is the simplest model of software development paradigm.
+It says all the phases of SDLC will function one after another in linear manner. That is, when the first phase is finished then only the second phase will start and so on. 
+Provides a series of steps to be followed to design and develop a software product efficiently
+Parts of SDLC: 1. _______ 
+Parts of SDLC: 2. _______ 
+Parts of SDLC: 3. _______ 
+Parts of SDLC: 4. _______ 
+Parts of SDLC: 5. _______ 
+Parts of SDLC: 6. _______ 
+Parts of SDLC: 7. _______ 
+Parts of SDLC: 8. _______ 
+Parts of SDLC: 9. _______ 
+Parts of SDLC: 10. _______ 
+Parts of SDLC: 11. _______ 
+Parts of Waterfall Model: 1. ______
+Parts of Waterfall Model: 2. ______
+Parts of Waterfall Model: 3. ______
+Parts of Waterfall Model: 4. ______
+Parts of Waterfall Model: 5. ______
+Parts of Waterfall Model: 6. ______
+This model assumes that everything is carried out and taken place perfectly as planned in the previous stage and there is no need to think about the past issues that may arise in the next phase.
+This model does not work smoothly if there are some issues left at the previous step.
+The sequential nature of model does not allow us to go back and undo or redo our actions
+This model is best suited when developers already have designed and developed similar software in the past and are aware of all its domains.
+This model leads the software development process in iterations. It projects the process of development in cyclic manner repeating every step after every cycle of SDLC process.
+The software is first developed on very small scale and all the steps are followed which are taken into consideration. Then, on every next iteration, more features and modules are designed, coded, tested and added to the software. Every cycle produces a software, which is complete in itself and has more features and capabilities than that of the previous one.
+After each iteration, the management team can do work on risk management and prepare for the next iteration. Because a cycle includes small portion of whole software process, it is easier to manage the development process but it consumes more resources.
+_____ is a combination of both, iterative model and one of the SDLC model. It can be seen as if you choose one SDLC model and combine it with cyclic process (iterative model).
+This model considers risk, which often goes un-noticed by most other models. The model starts with determining objectives and constraints of the software at the start of one iteration. Next phase is of prototyping the software. This includes risk analysis. Then one standard SDLC model is used to build the software. In the fourth phase of the plan of next iteration is prepared.
+provides means of testing of software at each stage in reverse manner.
+At every stage, test plans and test cases are created to verify and validate the product according to the requirement of that stage. For example, in requirement gathering stage the test team prepares all the test cases in correspondence to the requirements. Later, when the product is developed and is ready for testing, test cases of this stage verify the software against its validity towards requirements at this stage.
+ This model is also known as verification and validation model.
+Both _______ and validation go in parallel
+Both verification and _______ go in parallel
+This model is the simplest model in its form. It requires little planning, lots of programming and lots of funds. This model is conceptualized around the big bang of universe. As scientists say that after big bang lots of galaxies, planets and stars evolved just as an event. Likewise, if we put together lots of programming and funds, you may achieve the best software product.
+For this model, very small amount of planning is required. It does not follow any process, or at times the customer is not sure about the requirements and future needs. So the input requirements are arbitrary.
+ It does not follow any process, or at times the customer is not sure about the requirements and future needs.
+For the Big Bang Model, input requirements are _______
+This model is not suitable for large software projects but good one for learning and experimenting.
+People often fail to understand that _____ has minimal value if there is no quality.
+The _________ can be defined as the ability of the software to function as per user requirement. 
+The quality of software can be defined as the ability of the software to function as per ___________ . 
+It is always important to have a good and aesthetic design to please users
+Be it any software it should be able to perform the functionality impeccably without issues
+Be it any software it should be able to perform the functionality ___________ without issues
+Be it any software it should be able to perform the ___________ impeccably without issues
+means the ability of the software to work without any issue for a long period of time.
+Software should be able to perform consistently over platform and devices
+Bugs associated with any software should be able to capture and fix quickly and news tasks and enhancement must be added without any trouble
+customer and companies who make this app should feel that the money spent on this app has not fone to waste.was first introduced in the US Airforce in the year 1977.  The main intention of this model was to maintain harmony between users and developers.
+was introduced in the year 1978. It was a kind of hierarchical model that's structured around high-level characteristics.  
+It was a kind of hierarchical model that's structured around high-level characteristics.
+measures software quality on the basis of certain characteristics.
+mainly focussed on the attributes and sub-attributes to connect properties of the software to the quality attributes
+Have a clear idea about how the quality assurance process will be carried out through the project. Quality engineering activities required should also be set at the beginning along with team skill check.
+ Checkpoints at required intervals should be set
+pointers or numbers which help you understand the attributes of a product,
+Three Ps?
+are an indicator of the health of the product, process, and project.
+Parts of metrics: 1. _________
+Parts of metrics: 2. _________
+As the name suggests it is the average time between two failures in a system. Based on the AUT and expectation of business the definition of failure may vary.
+ basically the time it takes for the developers to find a critical issue with the system, fix it and push the fix patch to production
+ is similar to the lead time with a difference that leads time is measured per user story, while cycle time is measured per task. For eg, if database creation is part of the user story related to client data.
+These metrics are in line with the agile principle of dynamic, fast and quality delivery. It is an indicator of the number of test cases that pass in the first run itself.
+They are a series of procedures that can be defined for a particular programming language specifying a programming style, the methods, & different procedures. 
+makes sure that all the developers working on the project are following certain specified guidelines. The code can be easily understood and proper consistency is maintained.
+has a positive impact on the quality of the program and one should maintain it while coding
+ Software becomes vulnerable to attacks if it is inconsistent, contains bugs and errors in logic. Most of the aforementioned problems arise due to the faulty programming code that might have resulted from poor coding practices.
+Poor coding has an adverse effect on the performance of the site. 
+Try to define different sections of the code by segmenting blocks of code into a __________ 
+Make use of _________ for indicating the start and end of the control structures along with a clear specification of where the code is between them
+It is a good practice to comment while writing code. It helps other developers to understand your code. 
+There is no particular style defined, but any style can be chosen for writing code.
+This can be used for naming where the first letter of each word is capitalized except for the first word.
+Name your function using an underscore between the words.
+also known as DIE (duplication is evil)
+DRY means?
+ It is a good practice to write your own code and dont copy. It is a known fact that most software programs aim at automating repetitive tasks. Therefore, the code of the application should be such that the same code is not repeated over and over again.
+ Too many nesting structures make it difficult to understand the code.
+It is possible to write the whole code in a single file but there could be problems related to its readability and maintenance. 
+While working on open source projects, multiple developers give input in a single software. Therefore, it is good to maintain code readability, so that the team can work on it in an easy manner. It is also advantageous to go through the source code of these projects to get an idea about what the developers are doing.

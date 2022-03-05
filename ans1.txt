@@ -1,0 +1,159 @@
+Social Work Ability
+Defect Count Per Sprint
+Coding and Module Testing
+Application Crash Rate
+Use short line length
+Defect Count Per Sprint
+Software Need Analysis and Specification
+Defect Density
+System Maintenance
+Lead Time
+System Implementation
+Refactoring Code
+Statement of Problem and System Study
+Legal Work Ability
+Technical Work Ability
+OOPs vs. Procedural Programming
+Grouping Code
+Avoid Commenting on Obvious Things
+Software Design and Specification
+Software Engineering
+usefulness
+importance
+attributes
+high quality software
+delivered
+output
+easy to use
+rate of production
+budget
+satisfaction
+phases
+consistency
+Statement of problem and system study
+Study of work ability
+Software need analysis and specification
+Software design and specification
+Coding and module testing
+Integration and system testing
+System implementation
+System maintenance
+Statement of problem and system study
+Study of work ability
+Technical Work Ability
+Economic Work Ability
+Legal Work Ability
+Software need specification document
+Architecture design
+Object oriented design
+program module
+Integration and system testing
+Integration and system testing
+Direct conversion
+Phased conversion
+Parallel conversion
+Corrective maintenance
+Perfective maintenance
+Adaptive maintenance
+Software Development Life Cycle
+Communication
+Requirement Gathering
+user
+system
+functional
+feasiblity study
+system analysis
+system analysis
+Software Design
+Coding
+Testing
+Integration
+Implementation
+Operation and Maintenance
+Disposition
+Disposition
+Disposition
+Software Development Paradigm
+Strategy
+Waterfall model
+Waterfall model
+Software Development Life Cycle
+Communication
+Requirement Gathering
+Feasibility Study
+System Analysis
+Software Design
+Coding
+Testing
+Integration
+Implementation
+Operations and Maintenance
+Disposition
+Requirement Gathering
+System Analysis
+Coding
+Testing
+Implementation
+Operations and Maintenance
+Waterfall model
+Waterfall model
+Waterfall model
+Waterfall model
+Iterative model
+Iterative model
+Iterative model
+Spiral model
+Spiral model
+V-Model
+V-Model
+V-Model
+Verification
+Validation
+Big Bang Model
+Big Bang Model
+Big Bang Model
+Arbitrary
+Big Bang Model
+Speed
+Quality of software
+User Requirement
+Good design
+Reliability
+Impeccably
+functionality
+durability
+Consistency
+Maintainability
+Value for money
+Mc call's Model
+Boehm Quality model
+Boehm Quality Model
+Dromey's Quality Model
+Management plan
+Proper checkpoints
+Metrics
+Product Process Project
+Software Quality Metrics
+Data Accuracy
+Metrics Selection
+Meantime Between Failures
+Meantime to Recover
+Cycle Time
+First Time Pass Rate
+Coding Standards
+Coding Standards
+Consistency
+Security Concerns
+Performance Issues
+Paragraph
+Indentation
+Code Comments and Proper Documentation 
+Use of Indentation
+CamelCase
+UnderScore
+Principle of DRY
+Don't Repeat Yourself
+Principle of DRY
+Deep nesting structure should be avoided
+Proper organization of files and folder
+Open source code readability
