@@ -1,0 +1,208 @@
+Cybersecurity
+Offline Identity
+Online Identity
+Your Data
+Medical Records
+Education Records
+Employment and Financial Records
+Credentials
+Money
+Identity
+Corporate data
+Personnel Information
+Intellectual property
+Intellectual property
+Intellectual property
+Financial Data
+Financial Data
+Traditional Data
+Internet of Things and Big Data
+Internet of Things
+Internet of Things
+Big Data
+Confidentiality
+Integrity
+Availability
+Confidentiality
+Authentication Encryption
+Integrity
+Availability
+Privacy
+Integrity
+Integrity
+Confidentiality
+Confidentiality
+Confidentiality
+Integrity
+Version control
+Backups
+Checksum hashing
+Checksum
+Checksums
+Hash Function
+Availability
+Denial of Service
+LastPass
+Vtech
+Toy Tablet
+SSL communication
+MD5 hash function
+plaintext
+Equifax Inc.
+Apache Struts
+Attackers
+Attackers
+Amateurs
+Amateurs
+Amateurs
+Amateurs
+Hackers
+White hat attackers
+Black hat attackers
+Gray hat attackers
+Gray hat hackers
+Gray hat hackers
+Organized Hackers
+Cybercriminals
+Hacktivists
+State-sponsored attackers
+State-sponsored attackers
+State-sponsored attackers
+Internal threats
+White hat hackers
+White hat hackers
+Grey hat hackers
+Grey hat hackers
+Cyberspace
+Cyberwarfare
+Stuxnet
+Stuxnet
+Stuxnet
+Stuxnet
+Stuxnet
+Cyberwarfare
+Security Vulnerabilities
+Exploit
+Attack
+Software Vulnerabilities
+SYNful Knock
+SYNful Knock
+SYNful Knock
+Project Zero
+Hardware vulnerabilities
+Rowhammer
+Rowhammer
+Rowhammer
+Hardware vulnerabilities
+True
+Buffer overflow
+Buffer
+Buffer overflow
+Non-validated input
+Non-validated input
+Race conditions
+Race conditions
+Weaknesses in security practices
+Weaknesses in security practices
+Access control
+True
+Access control problems
+Buffer Overflow
+Malicious
+Software
+Malware
+Spyware
+Spyware
+True
+True
+Adware
+True
+Bot
+Botnets
+Ransomware
+Ransomware
+Ransomware
+Scareware
+Scareware
+Scareware
+Rootkit
+Rootkit
+Rootkit
+True
+Virus
+Virus
+Virus
+Trojan horse
+Trojan horse
+Trojan horse
+Worms
+Worms
+Worms
+Code Red
+Man in the Middle
+Man in the Middle
+Man in the Mobile
+Man in the Mobile
+ZeuS
+Social Engineering
+Social engineers
+Pretexting
+Pretexting
+Tailgating
+Quid pro quo
+Something for Something
+Something for Something
+Wi-Fi password cracking 
+Social Engineering
+Brute-force attacks
+Network sniffing
+Phishing
+Spear Phishing
+Spear Phishing
+whois
+nmap
+Advanced Persistent Threats
+Advanced Persistent Threats
+Advanced Persistent Threats
+Denial of Service
+Overwhelming Quantity of Traffic
+Overwhelming Quantity of Traffic
+Maliciously Formatted Packets
+Maliciously Formatted Packets
+Denial of Service
+Denial of Service
+Distributed Denial of Service Attack
+Botnet
+Zombies
+Handler systems
+Search Engine Optimization
+Search Engine Optimization
+Search Engine Optimization Poisoning
+Search Engine Optimization Poisoning
+Blended attacks
+Blended attacks
+Computing devices
+Shodan
+Service Set Identifier
+Key Reinstallation Attacks
+Eavesdropping
+Encryption
+True
+Encryption
+Encrypting File System
+Network Attached Storage
+Amazon Web Services
+SDelete
+Shred
+Secure Empty Trash
+Personal Identification Number
+Physical Object
+Biometric scan
+Open Authorization
+Open Authorization
+Open Authorization
+InPrivate
+Incognito
+Private tab or Private window
+Private browsing
+Secure Sockets Layer

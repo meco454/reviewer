@@ -1,0 +1,56 @@
+Machine learning models
+edit
+harnesses
+avalanche-rescue dogs
+data
+machine learning algorithm
+boots
+harness
+Model
+Model
+Data
+experience
+true
+harness size
+dog boot size
+Parameters
+Parameter values
+training
+50
+OLS
+Ordinary Least Squares
+Trendline
+statsmodels.formula.api as smf
+formula = label ~ (is explained by) feature
+formula = boot_size ~ harness_size
+model = smf.ols(formula = formula, data = dataset)
+Slope, Offset
+fit
+training
+objective function
+optimizer
+objective
+objective function
+Objective functions
+data
+inputs
+data
+objective function
+optimizer
+parameters
+read_csv
+del
+Using
+training
+training
+once
+features
+labels
+joblib
+dump
+K-NN, K-Means, Hierarchical
+Apriori, FP-Growth
+Date
+Daily Temperature
+Slope
+Intercept
