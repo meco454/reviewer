@@ -38,7 +38,7 @@ def start_round(quez_choice, ans_choice):
         print("Question # {}, {}".format(counter, quez_copy[quez_num]))
 
         # Create the choices for MC type
-        choice_list = create_choices(quez_num, answers_copy)
+        choice_list = create_choices(quez_num, ans_choice)
         
         print("Choices: ", choice_list)
         user_answer = input("Enter your answer: ")
@@ -88,6 +88,7 @@ def main():
     print("1 - SEN02 Midterms")
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
+    print("4 - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
     choicenum = int(input("Enter: "))
@@ -104,9 +105,13 @@ def main():
 
 #    The above part looks like it can be made less redundant with the following code:
 
-    if choicenum <= 0 or choicenum > 3:
+    if choicenum <= 0 or choicenum > 4:
         print("Haiyaaaa, you fucked up")
         exit()
+    
+    if choicenum == 4:
+        quez_file_name, answers_file_name = input("Enter question filename: "), input("Enter answer filename: ")
+        questions, answers = load_items(f"{quez_file_name}", f"{answers_file_name}")
     else:
         # Used f-string to insert the choicenum
         questions, answers = load_items(f"quez{choicenum}.txt", f"ans{choicenum}.txt")
