@@ -88,7 +88,8 @@ def main():
     print("1 - SEN02 Midterms")
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
-    print("4 - Enter your own file")
+    print("4 - SEN02 Module 4 & 5")
+    print("Any other input - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
     choicenum = int(input("Enter: "))
@@ -108,10 +109,6 @@ def main():
     if choicenum <= 0 or choicenum > 4:
         print("Haiyaaaa, you fucked up")
         exit()
-    
-    if choicenum == 4:
-        quez_file_name, answers_file_name = input("Enter question filename: "), input("Enter answer filename: ")
-        questions, answers = load_items(f"{quez_file_name}", f"{answers_file_name}")
     else:
         # Used f-string to insert the choicenum
         questions, answers = load_items(f"quez{choicenum}.txt", f"ans{choicenum}.txt")

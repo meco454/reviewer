@@ -1,0 +1,21 @@
+For businesses that rely on software systems to keep things up and running, a ________ can stop production and lead to financial loss.
+In October of 2016, hundreds of people experienced firsthand the frustration of service failure, when a _________ cyberattack on the DNS provider Dyn made many internet platforms and services unavailable to users in Europe and North America.
+In October of 2016, hundreds of people experienced firsthand the frustration of service failure, when a denial-of-service (DOS) cyberattack on the DNS provider ____ made many internet platforms and services unavailable to users in Europe and North America.
+Software failure can have more serious effects than temporarily preventing you from checking your tweets.
+_____ can have more serious effects than temporarily preventing you from checking your tweets.
+In March 2011, a problem with Commonwealth Bank of ______’s banking systems software caused ATMs to overpay customers. 
+In March 2011, a problem with Commonwealth Bank of Australia’s banking systems software caused ATMs to _____ customers. 
+ERP means?
+This term refers to the identification, assessment and prioritization of risks
+The term “risk management” refers to the _____, assessment and prioritization of risks 
+The term “risk management” refers to the identification, _______ and prioritization of risks 
+The term “risk management” refers to the identification, assessment and _______ of risks 
+The first step in risk management is to
+Only after a risk is _______ can it be assessed and prioritized.  
+Formula for identifying risks: Risk = ___________ x Probability of injury occurring
+Formula for identifying risks: Risk = Gravity of injury x _____________
+The number one cause of software failure is ________ in application programming
+The number one cause of software failure is human error in __________
+This failure happens during the coding process, often due to oversights in the software development lifecycle.
+
+
