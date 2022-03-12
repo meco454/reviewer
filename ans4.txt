@@ -17,3 +17,42 @@ Probability of injury occurring
 human error
 application programming
 Human error in application programming
+small sign errors
+Hire an in-house programmer
+Find the right software provider to monitor your system
+Invest time and money into development and implementation
+programmer
+in-house programmer
+software provider
+development
+implementation
+Implementing a high-quality software
+software bugs
+Alogrithm Based Fault Tolerance
+Algorithm Based Fault Tolerance
+Algorithm Based Fault Tolerance
+Algorithm Based Fault Tolerance
+Algorithm Based Fault Tolerance
+Assertions
+Assertions
+Control Flow Checking 
+Control Flow Checking
+Control Flow Checking
+signature
+Control Flow Checking
+granularity
+Procedure Duplication
+Procedure Duplication
+Processors
+Procedure Duplication
+Procedure Duplication
+Procedure Duplication
+Error Detection by Duplicated Instructions
+Error Detection by Duplicated Instructions
+Error Detection by Duplicated Instructions
+Error Detection by Duplicated Instructions
+Error Detection by Duplicated Instructions
+Error Detection by Duplicated Instructions
+
+
+

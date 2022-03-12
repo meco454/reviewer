@@ -17,5 +17,42 @@ Formula for identifying risks: Risk = Gravity of injury x _____________
 The number one cause of software failure is ________ in application programming
 The number one cause of software failure is human error in __________
 This failure happens during the coding process, often due to oversights in the software development lifecycle.
+when a programmer accidentally uses a "greater than" sign rather than a "less than" sign in their code.
+Techniques for staying on top of software malfunction: 1.
+Techniques for staying on top of software malfunction: 2.
+Techniques for staying on top of software malfunction: 3.
+having a quality _______ on staff gives you a huge advantage when it comes to catching and correcting software errors.
+Your ____________ can perform tests and monitor your system at the code level.
+The right __________ can be a huge asset to your business, providing scheduled routine maintenance, backup services and expert support if you ever do experience a malfunction.
+Invest time and money into ________ and implementation
+Invest time and money into development and __________
+_____________ for your company requires time and money and rushing through the process makes you more susceptible to missed bugs and opportunities for malfunction.
+The US Department of Commerce’s National Institute of Standards and Technology concluded that __________  were so common and damaging that they cost the American economy an estimated $59 billion every year.
+ABFT means?
+ refers to a self-contained method for detecting, locating, and correcting faults with a software procedure. 
+ It exploits the structure of numerical operations.
+ This approach is effective but lacks of generality.
+  It is well suited for applications using regular structures, and therefore its applicability is valid for a limited set of problems.
+  the logic statements inserted at different points in the program
+  reflect invariant relationships between the variables of the program and they often lead to various problems as assertions are not transparent to a programmer and their effectiveness depends on the nature of an application and on a programmer's ability.
+CFC means?
+The basic task of ______ is to partition an application program in basic blocks or the branch-free parts of code. 
+A deterministic signature (or number) is assigned to each block and faults are detected by comparing the run-time signature with a pre-computed one
+In CFC, A deterministic _______ (or number) is assigned to each block and faults are detected by comparing the run-time signature with a pre-computed one
+In most ____ techniques one of the major problems is to tune the test granularity that should be used.
+In most CFC techniques one of the major problems is to tune the test ______ that should be used.
+PD means? 
+The programmer decides to duplicate the most critical procedures and to compare the obtained results on executing the procedures on two different processors.
+The programmer decides to duplicate the most critical procedures and to compare the obtained results on executing the procedures on two different ________
+This approach requires a programmer to decide which procedures to be duplicated and to introduce proper checking on the results
+These code modifications are done manually and might introduce errors.
+Code duplication for byte-error detection by a single processor.
+EDDI means?
+Computation results from master and shadow instructions are compared before writing to memory.
+Upon mismatch, the program jumps to an error handler that will cause the program to restart.
+has high error coverage at the cost of performance penalty due to time redundancy as introduced into the system.
+Since we use general purpose registers as shadow registers, more register spilling occurs with _______.
+More spilling causes more performance overhead since it increases the number of memory operations.
+
 
 
