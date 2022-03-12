@@ -117,3 +117,79 @@ Second step in Iterative and Incremental Approach?
 Third step in Iterative and Incremental Approach?
 Fourth step in Iterative and Incremental Approach?
 Fifth step in Iterative and Incremental Approach?
+Identify Architecture Goal includes this activity: Identify your _____ at the start.
+Identify Architecture Goal includes this activity: Identify the _____ of our Architecture
+Identify Architecture Goal includes this activity: Identify the _____
+ Flawless and defined objectives emphasize on the architecture, solve the right problems in the design and helps to determine when the current phase has completed, and ready to move to the next phase.
+This step puts emphasis on the design that matters the most.
+is an extensive and covering description of a user's interaction with the system.
+are those that are considered the most important scenarios for the success of your application. 
+It helps to make decisions about the architecture.
+The goal is to achieve a balance among the user, business, and system objectives. 
+Build an overview of application, which makes the architecture more touchable, connecting it to real-world constraints and decisions. 
+Identify ______ whether it is a mobile application, a rich client, a rich internet application, a service, a web application, or some combination of these types.
+Choose an appropriate deployment topology and resolve conflicts between the application and the target infrastructure.
+Identify _________ such as client/server, layered, message-bus, domain-driven design, etc. to improve partitioning and promotes design reuse by providing solutions to frequently recurring problems
+Identify the _______ by considering the type of application we are developing, our preferred options for application deployment topology and architectural styles.
+ The choice of technologies will also be directed by organization policies, infrastructure limitations, resource skills, and so on.
+ While designing an application, _____ are the zones where mistakes are most often made.
+  are the overall features of your architecture that affect run-time behavior, system design, and user experience
+ are the features of our design that may apply across all layers, components, and tiers.
+  Examples of _______ are authentication and authorization, communication, configuration management, exception management and validation, etc.
+After defining the key hotspots, build the initial baseline architecture or first high level design and then start to fill in the details to generate candidate architecture.
+After defining the key hotspots, build the initial baseline architecture or first high level design and then start to fill in the details to generate _________.
+ includes the application type, the deployment architecture, the architectural style, technology choices, quality attributes, and crosscutting concerns. 
+  If the ______ is an improvement, it can become the baseline from which new candidate architectures can be created and tested.
+  Validate the _______ against the key scenarios and requirements that have already defined, before iteratively following the cycle and improving the design.
+  We may use _________ to discover the specific areas of the design or to validate new concepts.
+  are a design prototype, which determine the feasibility of a specific design path, reduce the risk, and quickly determine the viability of different approaches.
+  is the most important task in order to reduce the cost of mistakes and to find and fix architectural problems as early as possible.
+  It is a well-established, cost-effective way of reducing project costs and the chances of project failure.
+  The main objective of an ______ is to determine the feasibility of baseline and candidate architectures, which verify the architecture correctly.
+  Links the functional requirements and the quality attributes with the proposed technical solution. 
+  It also helps to identify issues and recognize areas for improvement
+  are a dominant method for reviewing an architecture design which focuses on the scenarios that are most important from the business perspective, and which have the greatest impact on the architecture. 
+Scenario-based evaluations are a dominant method for reviewing an _____ which focuses on the scenarios that are most important from the business perspective, and which have the greatest impact on the architecture. 
+SAAM means?
+It is originally designed for assessing modifiability, but later was extended for reviewing architecture with respect to quality attributes.
+ATAM means?
+It is a polished and improved version of SAAM, which reviews architectural decisions with respect to the quality attributes requirements, and how well they satisfy particular quality goals.
+ADR means?
+ It is best suited for incomplete or in-progress architectures, which more focus on a set of issues or individual sections of the architecture at a time, rather than performing a general review.
+ARID means?
+It combines the ADR aspect of reviewing in-progress architecture with a focus on a set of issues, and the ATAM and SAAM approach of scenario-based review focused on quality attributes.
+CBAM means?
+It focuses on analyzing the costs, benefits, and schedule implications of architectural decisions.
+ALMA means?
+ It estimates the modifiability of architecture for business information systems (BIS).
+BIS means?
+FAAM means?
+It estimates information system family architectures for interoperability and extensibility.
+After completing the architecture design, we must communicate the design to the other stakeholders, which include development team, system administrators, operators, business owners, and other interested parties.
+ This approach uses five views of the complete architecture
+Among them, four views (the logical view, the process view, the physical view, and the development view) describe the architecture from different approaches. A fifth view shows the scenarios and use cases for the software. 
+It allows stakeholders to see the features of the architecture that specifically interest them.
+ADL means?
+ This approach is used to describe software architecture prior to the system implementation. 
+ It addresses the following concerns − behavior, protocol, and connector.
+ The main advantage of ____ is that we can analyze the architecture for completeness, consistency, ambiguity, and performance before formally beginning use of the design.
+This approach follows the concept that “content is more important than representation.”
+It ensures that the models created are simple and easy to understand, sufficiently accurate, detailed, and consistent.
+Agile Modeling - This approach follows the concept that “_____ is more important than representation.”
+Agile Modeling - This approach follows the concept that “content is more important than ______.”
+The simplicity of the document ensures that there is active participation of stakeholders in the modeling of the artifact.
+is the short name for a standard formally known as ANSI/IEEE 1471-2000
+“Recommended Practice for Architecture Description of Software-Intensive Systems.”
+ enhances the content of an architectural description, in particular, giving specific meaning to context, views, and viewpoints.
+IEEE 1471 is the short name for a standard formally known as ________
+IEEE 1471 is the short name for a standard formally known as ANSI/IEEE 1471-2000, “________ for Architecture Description of Software-Intensive Systems.”
+IEEE 1471 is the short name for a standard formally known as ANSI/IEEE 1471-2000, “Recommended Practice for _______ of Software-Intensive Systems.”
+IEEE 1471 is the short name for a standard formally known as ANSI/IEEE 1471-2000, “Recommended Practice for Architecture Description of __________.”
+UML means?
+This approach represents three views of a system model.
+Three views of System Model (UML): ________, static structural view, dynamic behavior view
+Three views of System Model (UML): functional requirements view, _______, dynamic behavior view
+Three views of System Model (UML): functional requirements view, static structural view, _________
+requirements of the system from the point of view of the user, including use cases)
+objects, attributes, relationships, and operations including class diagrams
+collaboration among objects and changes to the internal state of objects, including sequence, activity, and state diagrams

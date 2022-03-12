@@ -117,3 +117,79 @@ Key Scenarios
 Application Overview
 Key Issues or Key Hotspots
 Candidate Solutions
+Architecture goals
+consumer
+constraints
+Identify Architecture Goal
+Key Scenarios
+Scenario
+Key scenarios
+Key scenarios
+Key scenarios
+Application overview
+application type
+Identify Deployment Constraints
+Important Architecture Design Styles
+relevant technologies
+Identify the Relevant Technologies 
+hot spots
+Quality attributes
+Crosscutting concerns
+Crosscutting concerns 
+Candidate Solutions
+Candidate architecture
+Candidate architecture
+Candidate architecture
+Candidate solution design
+Architectural spikes
+Architectural spikes
+Architecture review
+Architecture review
+Architecture review
+Architecture review
+Architecture review
+Scenario-based evaluations
+Architecture design
+Software Architecture Analysis Method
+Software Architecture Analysis Method
+Architecture Tradeoff Analysis Method
+Architecture Tradeoff Analysis Method
+Active Design Review
+Active Design Review
+Active Reviews of Intermediate Designs
+Active Reviews of Intermediate Designs
+Cost Benefit Analysis Method
+Cost Benefit Analysis Method
+Architecture Level Modifiability Analysis
+Architecture Level Modifiability Analysis
+Business Information Systems
+Family Architecture Assessment Method
+Family Architecture Assessment Method
+Communicating the Architecture Design
+4 + 1 Model
+4 + 1 Model
+4 + 1 Model
+Architecture Description Language
+Architecture Description Language
+Architecture Description Language
+Architecture Description Language
+Agile Modeling
+Agile Modeling
+Content
+Representation
+Agile Model Document
+IEEE 1471
+IEEE 1471
+IEEE 1471
+ANSI or IEEE 1471-2000
+Recommended Practice
+Architecture Description
+Software-Intensive Systems
+Unified Modeling Language
+Unified Modeling Language
+Functional Requirements view
+Static structural view
+Dynamic behavior view
+functional requirements view
+static structural view
+dynamic behavior view
