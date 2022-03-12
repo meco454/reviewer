@@ -4,13 +4,17 @@ import random
 def check_lengths(list1, list2):
     if len(list1) != len(list2):
         print("Warning!!! Not equal question to answer lists!")
-        return False
-    return True
+
+    #UNCOMMENT THIS CODE BLOCK TO CHECK FOR LIST LENGTH RELATED ISSUES
+    # print(f"list1 length: {len(list1)}")
+    # print(f"list2 length: {len(list2)}")
 
 # Variable quez_num refers to the index of question/answer in the list
 # answers_copy is a list of the possible answers it'll use
-def create_choices(quez_num, answers_copy):
-    choice_list = random.choices(answers_copy, k = 4)
+def create_choices(quez_num, answers_copy, ans_choice):
+    
+    #argument is original answers list, not the copy (to avoid weird behavior as list grows smaller)
+    choice_list = random.choices(ans_choice, k = 4)
     if answers_copy[quez_num] not in choice_list:
         choice_list[random.randint(0, 3)] = answers_copy[quez_num]
     
@@ -38,7 +42,8 @@ def start_round(quez_choice, ans_choice):
         print("Question # {}, {}".format(counter, quez_copy[quez_num]))
 
         # Create the choices for MC type
-        choice_list = create_choices(quez_num, ans_choice)
+        # added another argument so that choices will be from original answers list not the copy to avoid weird behavior later on
+        choice_list = create_choices(quez_num, answers_copy, ans_choice)
         
         print("Choices: ", choice_list)
         user_answer = input("Enter your answer: ")
@@ -67,12 +72,12 @@ def load_items(quezname, ansname):
     quez_list = []
     ans_list = []
     
-    f_quez = open(quezname, "r")
+    f_quez = open(quezname, "r", encoding = "utf8")
     for item in f_quez:
         quez_list.append(str(item).strip())
     f_quez.close()
 
-    f_ans = open(ansname, "r")
+    f_ans = open(ansname, "r", encoding = "utf8")
     for item in f_ans:
         ans_list.append(str(item).strip())
     f_ans.close()
@@ -113,6 +118,7 @@ def main():
         # Used f-string to insert the choicenum
         questions, answers = load_items(f"quez{choicenum}.txt", f"ans{choicenum}.txt")
     
+    check_lengths(questions, answers)
     start_round(questions, answers)
 
 main()

@@ -53,6 +53,67 @@ Error Detection by Duplicated Instructions
 Error Detection by Duplicated Instructions
 Error Detection by Duplicated Instructions
 Error Detection by Duplicated Instructions
-
-
-
+(Software Implemented) Error Detection and Correction
+Software Implemented Error Detection and Correction
+Software Implemented EDAC approaches 
+Software Implemented Error Detection and Correction
+Software Implemented Error Detection and Correction
+Periodic Memory Scrubbing
+Periodic Memory Scrubbing
+Periodic Memory Scrubbing
+Masking Redundancy
+Masking Redundancy
+Masking Redundancy
+Masking Redundancy
+Reconfiguration
+Reconfiguration
+Reconfiguration
+Replication
+Replication
+Replication
+ReStore Architecture
+ReStore Architecture
+ReStore Architecture
+Dual Modular Redundancy
+Backward Error Recovery
+Dual Modular Redundancy & Backward-Error Recovery & Checkpoint Error
+Dual Modular Redundancy
+Backward-Error Recovery
+Checkpoint
+Architectural registers and memory values
+Checkpoint
+Triple Modular Redundancy
+Forward-Error Recovery
+Triple Modular Redundancy & Forward - Error Recovery
+Triple Modular Redundancy
+Fingerprinting
+Fingerprinting 
+Fingerprinting
+Processor Status Word Tracking
+Processor Status Word Tracking
+Processor Status Word
+Application Semantic Based Assertions
+Application Semantic Based Assertions
+Application Semantic Based Assertions
+Checksum & Parity
+Checksum & Parity
+Checksum & Parity
+Matrix Checksums
+Matrix Checksums
+Arithmetic Sum & Difference Checks for a pair of elements
+Arithmetic Sum & Difference Checks for a pair of elements
+NOP-PSW Approach
+NOP-PSW Approach
+NOP-PSW Approach
+NOP-PSW Approach
+NOP-PSW Approach
+Electromagnetic Interference
+NOP-PSW 
+Five
+Incremental
+Iterative
+Identify Architecture Goal
+Key Scenarios
+Application Overview
+Key Issues or Key Hotspots
+Candidate Solutions

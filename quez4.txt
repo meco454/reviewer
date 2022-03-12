@@ -53,6 +53,67 @@ Upon mismatch, the program jumps to an error handler that will cause the program
 has high error coverage at the cost of performance penalty due to time redundancy as introduced into the system.
 Since we use general purpose registers as shadow registers, more register spilling occurs with _______.
 More spilling causes more performance overhead since it increases the number of memory operations.
-
-
-
+EDAC means?
+e.g., Cyclic Redundancy Checks or CRC, Hamming Codes, Bose-Chaudhuri- Hocquenghem or BCH etc
+are effective in error detection but they suffer from very high time overhead.
+However, there is a limitation when it comes to code lengths. These conventional error correcting codes namely, They have limitations and there exists very high time redundancy when they are implemented by software.
+When the check-bits become erroneous, the stored check bits do not match the computation and as a result, a block code fails. In general, checksum schemes fail when they are corrupted enough to transform to another valid code work (the distance of the code).
+This approach relies on periodic reloading of code on main memory from an immutable memory. 
+This is effective for protecting the code segment of Operating system and application programs
+Performance penalty is due to repetitive memory reading.
+This approach means running an application in the presence of faults. 
+Few processors are used to run the same program and vote to identify errors in any single processor.
+Errors can be masked from application software.
+No software rollbacks are required to fix errors.
+This means removing failed modules from the system.
+When failure occurs in a module, its effects on the remaining portion of the system is isolated. 
+A large number of functional modules are used, which are switched automatically to replace a failing module.
+This ensures reliability but is expensive in terms of hardware or runtime cost. 
+The idea is to take a majority vote on a calculation replicated N times. 
+Its software solution requires each processor to run N copies of surrounding computations and then vote on the result. This slows down the computation by at least a factor of N.
+Transient errors or soft errors are detected through time redundancy in the _______
+The novelty of the _______ is the use of transient error symptoms, such as, memory protection violation and incorrect control flow etc.
+The tendency for these symptoms to occur quickly after a transient, coupled with a check pointing implementation in hardware to restore clean architectural state, enables a cost effective soft error detection and recovery solution.
+DMR means?
+BER means? 
+is detected through differences in execution across a dual modular redundant (DMR) processor pair
+is a backward-error recovery (BER) technique where two processors are used to detect errors in execution.
+____ mechanisms create checkpoints of correct system state and rollback processor execution when an error is detected.
+A ____ of program state consists of a snapshot of architectural registers and memory values
+A checkpoint of program state consists of a snapshot of ____________
+logically represents a single point in time.
+TMR means?
+FER means?
+Three processors execute the same program and when one processor fails a majority vote, it determines the erroneous processor. 
+is the classic example of FER where enough redundancy exists in the system to determine the correct operation, should a processor fail.
+This mechanism detects differences in execution across a dual modular redundant (DMR) processor pair.
+ It summarizes a processor's execution history in a hash-based signature. 
+ Differences between two mirrored processors are exposed by comparing their fingerprints.
+ PSWT means?
+ During the execution of a program if at any point of time a PSW is found to be an invalid one then we say that an error has occurred.
+ Invalid ______ means it does not match to any one of our known or valid ___ in the ____ bank meant for that program.
+ ASBA means?
+ We apply various assertions that are derived from our understanding about the semantics of an application. 
+ Any violation at an assertion indicates an erroneous state.
+ They are effective for bit error detection but not suitable for error correction.
+  The single parity checks can detect only odd number of single bit errors.
+  Any even number of single bit-errors remains undetected.
+   By using typical checksums for each row and column in a matrix, we can detect erroneous element of a matrix. 
+This is useful for detecting errors in application data.
+This approach is useful for detecting and correcting multiple bits errors in data words. 
+Even all bits errors in a data word are corrected by this approach.
+ This is useful for detecting transient errors or soft-errors in microprocessor registers, memory and stack area that might occur during the operational time at various industrial environments. 
+This generalized approach does not need multiple processors and multiple software design.
+This is a single - version low-cost but an efficient (fast and having low memory-space overhead) approach for tolerating transient faults.
+is intended to be an efficient supplement one to be used along with other prevailing software-based fault tolerance approaches. 
+This approach is very useful for designing fault tolerant microprocessor based systems using COTS components as the Electromagnetic Interference (EMI) or transients or radiation hardened components are very costly ones. 
+EMI means?
+The approach is also useful for software based fault avoidance.
+Iterative and Incremental Approach consists of ___ main steps that helps to generate candidate solutions
+Iterative and _____ Approach
+_____ and Incremental Approach
+First step in Iterative and Incremental Approach?
+Second step in Iterative and Incremental Approach?
+Third step in Iterative and Incremental Approach?
+Fourth step in Iterative and Incremental Approach?
+Fifth step in Iterative and Incremental Approach?
