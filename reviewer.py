@@ -94,7 +94,7 @@ def main():
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
     print("4 - SEN02 Module 4 & 5")
-    print("Any other input - Enter your own file")
+    print("69 - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
     choicenum = int(input("Enter: "))
@@ -111,9 +111,14 @@ def main():
 
 #    The above part looks like it can be made less redundant with the following code:
 
-    if choicenum <= 0 or choicenum > 4:
+    if choicenum <= 0 and choicenum > 4 and choicenum != 69:
         print("Haiyaaaa, you fucked up")
         exit()
+    elif choicenum == 69:
+        input_quez_file = input("Enter name of quez file here:")
+        input_ans_file = input("Enter name of answer file here:")
+        questions, answers = load_items(f"{input_quez_file}", f"{input_ans_file}")
+
     else:
         # Used f-string to insert the choicenum
         questions, answers = load_items(f"quez{choicenum}.txt", f"ans{choicenum}.txt")
