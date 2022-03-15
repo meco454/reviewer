@@ -37,6 +37,10 @@ def start_round(quez_choice, ans_choice):
     counter = 1
     for x in range(len(quez_copy)):
 
+
+        if counter % 50 == 0:
+            input("Break time! Input any character to continue: ")
+
         # Picks a random item number based on quez length
         quez_num = random.choice(range(0, len(quez_copy)))
         print("Question # {}, {}".format(counter, quez_copy[quez_num]))
@@ -58,6 +62,7 @@ def start_round(quez_choice, ans_choice):
 
         quez_copy.pop(quez_num)
         answers_copy.pop(quez_num)
+
         counter+=1
 
     else: # End questions
