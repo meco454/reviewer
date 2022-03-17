@@ -21,7 +21,7 @@ def create_choices(quez_num, answers_copy, ans_choice):
     while(True):
         choice_list = list(set(choice_list))
         if len(choice_list) < 4:
-            choice_list.insert(random.randint(0, len(choice_list)), random.choice(answers_copy))
+            choice_list.insert(random.randint(0, len(choice_list)), random.choice(ans_choice))
         else:
             break
     
@@ -99,6 +99,7 @@ def main():
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
     print("4 - SEN02 Module 4 & 5")
+    print("5 - SEN02 Sir Jon Mod 6")
     print("Any other input - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
@@ -116,7 +117,7 @@ def main():
 
 #    The above part looks like it can be made less redundant with the following code:
 
-    if choicenum <= 0 or choicenum > 4:
+    if choicenum <= 0 or choicenum > 5:
         print("Haiyaaaa, you fucked up")
         exit()
     else:

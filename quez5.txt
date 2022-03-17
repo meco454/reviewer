@@ -1,0 +1,10 @@
+are components like storage, virtual machines, and networks that  are available to build cloud solutions.
+ is a container to manage and aggregate resources in a single unit. 
+ provides a management layer that enables you to create, update, and delete resources in your Azure subscription.
+ generate separate billing reports and invoices for each subscription.
+manage and control access to the resources that users can provision with specific subscriptions.
+is an on-demand computing service that provides computing resources such as disks, processors, memory, networking, and operating systems.
+are software emulations of physical computers. 
+is a fully managed platform to build, deploy, and scale web apps and APIs quickly. 
+are a light-weight, virtualized environment that does not require operating system management, and can respond to changes on demand. 
+is a desktop and app virtualization that runs in the cloud. 
