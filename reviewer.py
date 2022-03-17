@@ -99,7 +99,7 @@ def main():
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
     print("4 - SEN02 Module 4 & 5")
-    print("5 - SEN02 Sir Jon Mod 6")
+    print("5 - SEN02 Mod 6 Azure PPT 1")
     print("Any other input - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
