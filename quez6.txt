@@ -1,0 +1,12 @@
+is optimized for storing massive amounts of unstructured data, such as text or binary data.
+provides disks for virtual machines, applications, and other services to access and use.
+sets up a highly available network file shares that can be accessed by using the standard Server Message Block (SMB) protocol.
+allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes.
+allows customers to find, try, purchase, and provision applications and services from hundreds of leading service providers, which are all certified to run on Azure.
+ enables Azure resources to communicate with each other, the internet, and on-premises networks. 
+ is used to send encrypted traffic between an Azure virtual network and an on-premises location over the public internet. 
+ extends on-premises networks into Azure over a private connection that is facilitated by a connectivity provider. 
+ is a globally-distributed database service that elastically and independently scales throughput and storage. 
+ is a relational database as a service (DaaS) based on the latest stable version of the Microsoft SQL Server database engine.
+ is a fully-managed MySQL database service for app developers.
+  is a relational database service based on the open-source Postgres database engine. 
