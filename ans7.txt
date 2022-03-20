@@ -1,4 +1,70 @@
-bloop
-bloop2
-bloop3
-bloop4
+firewall
+firewall
+host-based firewall
+network-based firewall
+network layer firewall
+transport layer firewall
+application layer firewall
+context aware application firewall
+proxy server
+reverse proxy server
+Network Address Translation Firewall
+network address translation
+host-based firewall
+port-scanning
+port number
+port-scanning
+security appliances
+routers
+intrusion prevention system
+intrusion prevention system
+virtual private network
+other security devices
+advanced malware protection
+advanced malware protection
+firewall
+advanced persistent threats
+secure operations center team
+incidence response team
+threat intelligence team
+security infrastructure engineering
+perform risk assessment
+create a security policy
+physical security measures
+human resource security measures
+perform and test backups
+maintain security patches and updates
+employ access controls
+Regularly Test Incident Response
+Implement a Network Monitoring, Analytics and Management tool
+Implement Network Security Devices
+Implement a Comprehensive Endpoint Security Solution
+Educate Users
+ Encrypt data
+ botnet
+ bot computer
+ botnet
+ Reconnaissance
+ Weaponization
+ Delivery
+  Exploitation
+  Command and Control
+  Action
+  Behavior-based security
+  Honeypots
+  Cisco’s Cyber Threat Defense Solution Architecture
+  netflow technology
+  netflow
+   Computer Security Incident Response Team
+security playbook
+security information and event management
+security information and event management
+data loss prevention
+data loss prevention
+intrustion detection system
+intrusion detection system
+intrusion prevention system
+cisco identity services engine
+cisco identity services engine
+kill chain
+snort

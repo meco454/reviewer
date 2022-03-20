@@ -120,7 +120,7 @@ def main():
     print("4 - SEN02 Module 4 & 5")
     print("5 - SEN02 Mod 6 Azure PPT 1")
     print("6 - SEN02 Mod 6 Azure PPT 2")
-    print("7 - Azure Knowledge Check")
+    print("7 - IAS MOD 4")
     print("Any other input - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
