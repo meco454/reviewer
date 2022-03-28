@@ -77,6 +77,7 @@ def start_round(quez_choice, ans_choice, choices):
         print("Stats: Correct answers:", correct_answers)
         print("Wrong Answers:", wrong_answers)
         print("Number of questions", len(quez_choice))
+        input("Press anything to exit program ")
 
 # Input: name of the subject/file to be loaded
 # Output: 2 lists: the quez list and ans list
@@ -117,9 +118,7 @@ def main():
     print("1 - SEN02 Midterms")
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
-    print("4 - SEN02 Module 4 & 5")
-    print("5 - SEN02 Mod 6 Azure PPT 1")
-    print("6 - SEN02 Mod 6 Azure PPT 2")
+    print("4 - SEN02 Final Exam")
     print("7 - IAS MOD 4")
     print("Any other input - Enter your own file")
     

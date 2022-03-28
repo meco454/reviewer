@@ -68,3 +68,6 @@ siem means?
  enforce access to network resources by creating role-based access control policies that segment access to the network (guests, mobile users, employees) without added complexity.
 a conceptual outline of the stages of an information systems attack
 is an open source intrusion protection system (IPS) that is capable of performing real-time traffic and port analysis, packet logging, content searching and matching, as well as detecting probes, attacks, port scans, fingerprinting, and buffer overflow attacks.
+Malware and backdoors are installed on the target.
+who developed the cyber kill chian as a security framework for incident detection and response?
+helps ensure company, system, and data preservation by performing Comprehensive investigations into computer security incidents
