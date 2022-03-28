@@ -1,195 +1,87 @@
-For businesses that rely on software systems to keep things up and running, a ________ can stop production and lead to financial loss.
-In October of 2016, hundreds of people experienced firsthand the frustration of service failure, when a _________ cyberattack on the DNS provider Dyn made many internet platforms and services unavailable to users in Europe and North America.
-In October of 2016, hundreds of people experienced firsthand the frustration of service failure, when a denial-of-service (DOS) cyberattack on the DNS provider ____ made many internet platforms and services unavailable to users in Europe and North America.
-Software failure can have more serious effects than temporarily preventing you from checking your tweets.
-_____ can have more serious effects than temporarily preventing you from checking your tweets.
-In March 2011, a problem with Commonwealth Bank of ______’s banking systems software caused ATMs to overpay customers. 
-In March 2011, a problem with Commonwealth Bank of Australia’s banking systems software caused ATMs to _____ customers. 
-ERP means?
-This term refers to the identification, assessment and prioritization of risks
-The term “risk management” refers to the _____, assessment and prioritization of risks 
-The term “risk management” refers to the identification, _______ and prioritization of risks 
-The term “risk management” refers to the identification, assessment and _______ of risks 
-The first step in risk management is to
-Only after a risk is _______ can it be assessed and prioritized.  
-Formula for identifying risks: Risk = ___________ x Probability of injury occurring
-Formula for identifying risks: Risk = Gravity of injury x _____________
-The number one cause of software failure is ________ in application programming
-The number one cause of software failure is human error in __________
-This failure happens during the coding process, often due to oversights in the software development lifecycle.
-when a programmer accidentally uses a "greater than" sign rather than a "less than" sign in their code.
-Techniques for staying on top of software malfunction: 1.
-Techniques for staying on top of software malfunction: 2.
-Techniques for staying on top of software malfunction: 3.
-having a quality _______ on staff gives you a huge advantage when it comes to catching and correcting software errors.
-Your ____________ can perform tests and monitor your system at the code level.
-The right __________ can be a huge asset to your business, providing scheduled routine maintenance, backup services and expert support if you ever do experience a malfunction.
-Invest time and money into ________ and implementation
-Invest time and money into development and __________
-_____________ for your company requires time and money and rushing through the process makes you more susceptible to missed bugs and opportunities for malfunction.
-The US Department of Commerce’s National Institute of Standards and Technology concluded that __________  were so common and damaging that they cost the American economy an estimated $59 billion every year.
-ABFT means?
- refers to a self-contained method for detecting, locating, and correcting faults with a software procedure. 
- It exploits the structure of numerical operations.
- This approach is effective but lacks of generality.
-  It is well suited for applications using regular structures, and therefore its applicability is valid for a limited set of problems.
-  the logic statements inserted at different points in the program
-  reflect invariant relationships between the variables of the program and they often lead to various problems as assertions are not transparent to a programmer and their effectiveness depends on the nature of an application and on a programmer's ability.
-CFC means?
-The basic task of ______ is to partition an application program in basic blocks or the branch-free parts of code. 
-A deterministic signature (or number) is assigned to each block and faults are detected by comparing the run-time signature with a pre-computed one
-In CFC, A deterministic _______ (or number) is assigned to each block and faults are detected by comparing the run-time signature with a pre-computed one
-In most ____ techniques one of the major problems is to tune the test granularity that should be used.
-In most CFC techniques one of the major problems is to tune the test ______ that should be used.
-PD means? 
-The programmer decides to duplicate the most critical procedures and to compare the obtained results on executing the procedures on two different processors.
-The programmer decides to duplicate the most critical procedures and to compare the obtained results on executing the procedures on two different ________
-This approach requires a programmer to decide which procedures to be duplicated and to introduce proper checking on the results
-These code modifications are done manually and might introduce errors.
-Code duplication for byte-error detection by a single processor.
-EDDI means?
-Computation results from master and shadow instructions are compared before writing to memory.
-Upon mismatch, the program jumps to an error handler that will cause the program to restart.
-has high error coverage at the cost of performance penalty due to time redundancy as introduced into the system.
-Since we use general purpose registers as shadow registers, more register spilling occurs with _______.
-More spilling causes more performance overhead since it increases the number of memory operations.
-EDAC means?
-e.g., Cyclic Redundancy Checks or CRC, Hamming Codes, Bose-Chaudhuri- Hocquenghem or BCH etc
-are effective in error detection but they suffer from very high time overhead.
-However, there is a limitation when it comes to code lengths. These conventional error correcting codes namely, They have limitations and there exists very high time redundancy when they are implemented by software.
-When the check-bits become erroneous, the stored check bits do not match the computation and as a result, a block code fails. In general, checksum schemes fail when they are corrupted enough to transform to another valid code work (the distance of the code).
-This approach relies on periodic reloading of code on main memory from an immutable memory. 
-This is effective for protecting the code segment of Operating system and application programs
-Performance penalty is due to repetitive memory reading.
-This approach means running an application in the presence of faults. 
-Few processors are used to run the same program and vote to identify errors in any single processor.
-Errors can be masked from application software.
-No software rollbacks are required to fix errors.
-This means removing failed modules from the system.
-When failure occurs in a module, its effects on the remaining portion of the system is isolated. 
-A large number of functional modules are used, which are switched automatically to replace a failing module.
-This ensures reliability but is expensive in terms of hardware or runtime cost. 
-The idea is to take a majority vote on a calculation replicated N times. 
-Its software solution requires each processor to run N copies of surrounding computations and then vote on the result. This slows down the computation by at least a factor of N.
-Transient errors or soft errors are detected through time redundancy in the _______
-The novelty of the _______ is the use of transient error symptoms, such as, memory protection violation and incorrect control flow etc.
-The tendency for these symptoms to occur quickly after a transient, coupled with a check pointing implementation in hardware to restore clean architectural state, enables a cost effective soft error detection and recovery solution.
-DMR means?
-BER means? 
-is detected through differences in execution across a dual modular redundant (DMR) processor pair
-is a backward-error recovery (BER) technique where two processors are used to detect errors in execution.
-____ mechanisms create checkpoints of correct system state and rollback processor execution when an error is detected.
-A ____ of program state consists of a snapshot of architectural registers and memory values
-A checkpoint of program state consists of a snapshot of ____________
-logically represents a single point in time.
-TMR means?
-FER means?
-Three processors execute the same program and when one processor fails a majority vote, it determines the erroneous processor. 
-is the classic example of FER where enough redundancy exists in the system to determine the correct operation, should a processor fail.
-This mechanism detects differences in execution across a dual modular redundant (DMR) processor pair.
- It summarizes a processor's execution history in a hash-based signature. 
- Differences between two mirrored processors are exposed by comparing their fingerprints.
- PSWT means?
- During the execution of a program if at any point of time a PSW is found to be an invalid one then we say that an error has occurred.
- Invalid ______ means it does not match to any one of our known or valid ___ in the ____ bank meant for that program.
- ASBA means?
- We apply various assertions that are derived from our understanding about the semantics of an application. 
- Any violation at an assertion indicates an erroneous state.
- They are effective for bit error detection but not suitable for error correction.
-  The single parity checks can detect only odd number of single bit errors.
-  Any even number of single bit-errors remains undetected.
-   By using typical checksums for each row and column in a matrix, we can detect erroneous element of a matrix. 
-This is useful for detecting errors in application data.
-This approach is useful for detecting and correcting multiple bits errors in data words. 
-Even all bits errors in a data word are corrected by this approach.
- This is useful for detecting transient errors or soft-errors in microprocessor registers, memory and stack area that might occur during the operational time at various industrial environments. 
-This generalized approach does not need multiple processors and multiple software design.
-This is a single - version low-cost but an efficient (fast and having low memory-space overhead) approach for tolerating transient faults.
-is intended to be an efficient supplement one to be used along with other prevailing software-based fault tolerance approaches. 
-This approach is very useful for designing fault tolerant microprocessor based systems using COTS components as the Electromagnetic Interference (EMI) or transients or radiation hardened components are very costly ones. 
-EMI means?
-The approach is also useful for software based fault avoidance.
-Iterative and Incremental Approach consists of ___ main steps that helps to generate candidate solutions
-Iterative and _____ Approach
-_____ and Incremental Approach
-First step in Iterative and Incremental Approach?
-Second step in Iterative and Incremental Approach?
-Third step in Iterative and Incremental Approach?
-Fourth step in Iterative and Incremental Approach?
-Fifth step in Iterative and Incremental Approach?
-Identify Architecture Goal includes this activity: Identify your _____ at the start.
-Identify Architecture Goal includes this activity: Identify the _____ of our Architecture
-Identify Architecture Goal includes this activity: Identify the _____
- Flawless and defined objectives emphasize on the architecture, solve the right problems in the design and helps to determine when the current phase has completed, and ready to move to the next phase.
-This step puts emphasis on the design that matters the most.
-is an extensive and covering description of a user's interaction with the system.
-are those that are considered the most important scenarios for the success of your application. 
-It helps to make decisions about the architecture.
-The goal is to achieve a balance among the user, business, and system objectives. 
-Build an overview of application, which makes the architecture more touchable, connecting it to real-world constraints and decisions. 
-Identify ______ whether it is a mobile application, a rich client, a rich internet application, a service, a web application, or some combination of these types.
-Choose an appropriate deployment topology and resolve conflicts between the application and the target infrastructure.
-Identify _________ such as client/server, layered, message-bus, domain-driven design, etc. to improve partitioning and promotes design reuse by providing solutions to frequently recurring problems
-Identify the _______ by considering the type of application we are developing, our preferred options for application deployment topology and architectural styles.
- The choice of technologies will also be directed by organization policies, infrastructure limitations, resource skills, and so on.
- While designing an application, _____ are the zones where mistakes are most often made.
-  are the overall features of your architecture that affect run-time behavior, system design, and user experience
- are the features of our design that may apply across all layers, components, and tiers.
-  Examples of _______ are authentication and authorization, communication, configuration management, exception management and validation, etc.
-After defining the key hotspots, build the initial baseline architecture or first high level design and then start to fill in the details to generate candidate architecture.
-After defining the key hotspots, build the initial baseline architecture or first high level design and then start to fill in the details to generate _________.
- includes the application type, the deployment architecture, the architectural style, technology choices, quality attributes, and crosscutting concerns. 
-  If the ______ is an improvement, it can become the baseline from which new candidate architectures can be created and tested.
-  Validate the _______ against the key scenarios and requirements that have already defined, before iteratively following the cycle and improving the design.
-  We may use _________ to discover the specific areas of the design or to validate new concepts.
-  are a design prototype, which determine the feasibility of a specific design path, reduce the risk, and quickly determine the viability of different approaches.
-  is the most important task in order to reduce the cost of mistakes and to find and fix architectural problems as early as possible.
-  It is a well-established, cost-effective way of reducing project costs and the chances of project failure.
-  The main objective of an ______ is to determine the feasibility of baseline and candidate architectures, which verify the architecture correctly.
-  Links the functional requirements and the quality attributes with the proposed technical solution. 
-  It also helps to identify issues and recognize areas for improvement
-  are a dominant method for reviewing an architecture design which focuses on the scenarios that are most important from the business perspective, and which have the greatest impact on the architecture. 
-Scenario-based evaluations are a dominant method for reviewing an _____ which focuses on the scenarios that are most important from the business perspective, and which have the greatest impact on the architecture. 
-SAAM means?
+is the most important task in order to reduce the cost of mistakes and to find and fix architectural problems as early as possible. 
+ includes the application type, the deployment architecture, the architectural style, technology choices, quality attributes, and crosscutting concerns.
+ makes sure that all the developers working on the project are following certain specified guidelines. The code can be easily understood and proper consistency is maintained.
+  is similar to the lead time with a difference that leads time is measured per user story, while cycle time is measured per task. For eg, if database creation is part of the user story related to client data.
+  is the union of people, process, and products to enable continuous delivery of value to our customers.
+   is defined as the time it takes from the time of project or sprint kick-off to the completion. In an agile process, we normally pick up user stories that will be delivered at the end of the sprint.
+are a dominant method for reviewing an architecture design which focuses on the scenarios that are most important from the business perspective, and which have the greatest impact on the architecture.
+can be defined as the ability of the software to function as per user requirement.  When it comes to software products it must satisfy all the functionalities written down in the software requirement specification document. 
+ is a very important metric for Agile/Scrum. It is an indicator of the number of tasks or user stories a team is able to complete during a single sprint.  
+ is one of the parts of the maintenance wherein during the process of software development corrective fault not found or discovered.
+ is one of the parts of the maintenance wherein under this step the software functions increased according to the need of customer.
+  is one of the parts of the maintenance wherein the software is transformed to new operating system, environments or to a new computer.
+  This is the first step where the user initiates the request for a desired software product. He contacts the service provider and tries to negotiate the terms. He submits his request to the service providing organization in writing.
+   This step onwards the software development team works to carry on the project. The team holds discussions with various stakeholders from problem domain and tries to bring out as much information as possible on their requirements. The requirements are contemplated and segregated into user requirements, system requirements and functional requirements.
+ After requirement gathering, the team comes up with a rough plan of software process. At this step the team analyzes if a software can be made to fulfil all requirements of the user and if there is any possibility of software being no more useful. It is found out, if the project is financially, practically and technologically feasible for the organization to take up. There are many algorithms available, which help the developers to conclude the feasibility of a software project.
+  At this step the developers decide a roadmap of their plan and try to bring up the best software model suitable for the project. System analysis includes Understanding of software product limitations, learning system related problems or changes to be done in existing systems beforehand, identifying and addressing the impact of project on organization and personnel etc. The project team analyzes the scope of the project and plans the schedule and resources accordingly.
+  Next step is to bring down whole knowledge of requirements and analysis on the desk and design the software product. The inputs from users and information gathered in requirement gathering phase are the inputs of this step. The output of this step comes in the form of two designs; logical design and physical design. Engineers produce meta-data and data dictionaries, logical diagrams, data-flow diagrams and in some cases pseudo codes.
+  This step is also known as programming phase. The implementation of software design starts in terms of writing program code in the suitable programming language and developing error-free executable programs efficiently.
+  An estimate says that 50% of whole software development process should be tested. Errors may ruin the software from critical level to its own removal. Software testing is done while coding by the developers and thorough testing is conducted by testing experts at various levels of code such as module testing, program testing, product testing, in-house testing and testing the product at user’s end. Early discovery of errors and their remedy is the key to reliable software.
+  Software may need to be integrated with the libraries, databases and other program(s). This stage of SDLC is involved in the integration of software with outer world entities.
+This means installing the software on user machines. At times, software needs post-installation configurations at user end. Software is tested for portability and adaptability and integration related issues are solved during implementation.
+This phase confirms the software operation in terms of more efficiency and less errors. If required, the users are trained on, or aided with the documentation on how to operate the software and how to keep the software operational. The software is maintained timely by updating the code according to the changes taking place in user end environment or technology. This phase may face challenges from hidden bugs and real-world unidentified problems.
+As time elapses, the software may decline on the performance front. It may go completely obsolete or may need intense upgradation. Hence a pressing need to eliminate a major portion of the system arises. This phase includes archiving data and required software components, closing down the system, planning disposition activity and terminating system at appropriate end-of-system time.
+It’s always important to have a good and aesthetic design to please users
+Be it any software it should be able to perform the functionality impeccably without issues
+Durability is a confusing term, In this context, durability means the ability of the software to work without any issue for a long period of time.
+Software should be able to perform consistently over platform and devices
+Bugs associated with any software should be able to capture and fix quickly and news tasks and enhancement must be added without any trouble
+customer and companies who make this app should feel that the money spent on this app has not gone to waste.
+Have a clear idea about how the quality assurance process will be carried out through the project. Quality engineering activities required should also be set at the beginning along with team skill check.
+Checkpoints at required intervals should be set
+Software becomes vulnerable to attacks if it is inconsistent, contains bugs and errors in logic. Most of the aforementioned problems arise due to the faulty programming code that might have resulted from poor coding practices.
+Poor coding has an adverse effect on the performance of the site. The performance issues comprise a multitude of things like when the user is interacting with the site, server response issues, reusability & flow of the code, etc.
 It is originally designed for assessing modifiability, but later was extended for reviewing architecture with respect to quality attributes.
-ATAM means?
 It is a polished and improved version of SAAM, which reviews architectural decisions with respect to the quality attributes requirements, and how well they satisfy particular quality goals.
-ADR means?
  It is best suited for incomplete or in-progress architectures, which more focus on a set of issues or individual sections of the architecture at a time, rather than performing a general review.
-ARID means?
 It combines the ADR aspect of reviewing in-progress architecture with a focus on a set of issues, and the ATAM and SAAM approach of scenario-based review focused on quality attributes.
-CBAM means?
 It focuses on analyzing the costs, benefits, and schedule implications of architectural decisions.
-ALMA means?
- It estimates the modifiability of architecture for business information systems (BIS).
-BIS means?
-FAAM means?
+It estimates the modifiability of architecture for business information systems (BIS).
 It estimates information system family architectures for interoperability and extensibility.
-After completing the architecture design, we must communicate the design to the other stakeholders, which include development team, system administrators, operators, business owners, and other interested parties.
- This approach uses five views of the complete architecture
-Among them, four views (the logical view, the process view, the physical view, and the development view) describe the architecture from different approaches. A fifth view shows the scenarios and use cases for the software. 
-It allows stakeholders to see the features of the architecture that specifically interest them.
-ADL means?
- This approach is used to describe software architecture prior to the system implementation. 
- It addresses the following concerns − behavior, protocol, and connector.
- The main advantage of ____ is that we can analyze the architecture for completeness, consistency, ambiguity, and performance before formally beginning use of the design.
-This approach follows the concept that “content is more important than representation.”
-It ensures that the models created are simple and easy to understand, sufficiently accurate, detailed, and consistent.
-Agile Modeling - This approach follows the concept that “_____ is more important than representation.”
-Agile Modeling - This approach follows the concept that “content is more important than ______.”
-The simplicity of the document ensures that there is active participation of stakeholders in the modeling of the artifact.
-is the short name for a standard formally known as ANSI/IEEE 1471-2000
-“Recommended Practice for Architecture Description of Software-Intensive Systems.”
- enhances the content of an architectural description, in particular, giving specific meaning to context, views, and viewpoints.
-IEEE 1471 is the short name for a standard formally known as ________
-IEEE 1471 is the short name for a standard formally known as ANSI/IEEE 1471-2000, “________ for Architecture Description of Software-Intensive Systems.”
-IEEE 1471 is the short name for a standard formally known as ANSI/IEEE 1471-2000, “Recommended Practice for _______ of Software-Intensive Systems.”
-IEEE 1471 is the short name for a standard formally known as ANSI/IEEE 1471-2000, “Recommended Practice for Architecture Description of __________.”
-UML means?
-This approach represents three views of a system model.
-Three views of System Model (UML): ________, static structural view, dynamic behavior view
-Three views of System Model (UML): functional requirements view, _______, dynamic behavior view
-Three views of System Model (UML): functional requirements view, static structural view, _________
-requirements of the system from the point of view of the user, including use cases)
-objects, attributes, relationships, and operations including class diagrams
-collaboration among objects and changes to the internal state of objects, including sequence, activity, and state diagrams
+refers to a self-contained method for detecting, locating, and correcting faults with a software procedure. It exploits the structure of numerical operations.
+the logic statements inserted at different points in the program reflect invariant relationships between the variables of the program and they often lead to various problems as assertions are not transparent to a programmer and their effectiveness depends on the nature of an application and on a programmer's ability.
+ The basic task of CFC is to partition an application program in basic blocks or the branch-free parts of code. A deterministic signature (or number) is assigned to each block and faults are detected by comparing the run-time signature with a pre-computed one. In most CFC techniques one of the major problems is to tune the test granularity that should be used.
+The programmer decides to duplicate the most critical procedures and to compare the obtained results on executing the procedures on two different processors. This approach requires a programmer to decide which procedures to be duplicated and to introduce proper checking on the results.
+Computation results from master and shadow instructions are compared before writing to memory. Upon mismatch, the program jumps to an error handler that will cause the program to restart.
+This approach relies on periodic reloading of code on main memory from an immutable memory. This is effective for protecting the code segment of Operating system and application programs. Performance penalty is due to repetitive memory reading.
+This approach means running an application in the presence of faults. Few processors are used to run the same program and vote to identify errors in any single processor. Errors can be masked from application software. No software rollbacks are required to fix errors.
+This means removing failed modules from the system. When failure occurs in a module, its effects on the remaining portion of the system is isolated. A large number of functional modules are used, which are switched automatically to replace a failing module.
+This ensures reliability but is expensive in terms of hardware or runtime cost. The idea is to take a majority vote on a calculation replicated N times. Its software solution requires each processor to run N copies of surrounding computations and then vote on the result. This slows down the computation by at least a factor of N.
+ Transient errors or soft errors are detected through time redundancy in the ReStore architecture. The novelty of the ReStore architecture is the use of transient error symptoms, such as, memory protection violation and incorrect control flow etc.
+ This mechanism detects differences in execution across a dual modular redundant (DMR) processor pair. It summarizes a processor's execution history in a hash-based signature. Differences between two mirrored processors are exposed by comparing their fingerprints.
+During the execution of a program if at any point of time a PSW is found to be an invalid one then we say that an error has occurred. Invalid PSW means it does not match to any one of our known or valid PSWs in the PSW bank meant for that program.
+We apply various assertions that are derived from our understanding about the semantics of an application. Any violation at an assertion indicates an erroneous state.
+They are effective for bit error detection but not suitable for error correction. The single parity checks can detect only odd number of single bit errors. Any even number of single bit-errors remains undetected.
+ By using typical checksums for each row and column in a matrix, we can detect erroneous element of a matrix. This is useful for detecting errors in application data.
+ This is useful for detecting transient errors or soft-errors in microprocessor registers, memory and stack area that might occur during the operational time at various industrial environments.
+ These are agile tools that help us plan, track, and discuss our work, even with other teams.
+These will let us build, test, and deploy with CI/CD that works with any language, platform, and cloud.
+These are manual and exploratory testing tools.
+ These provide unlimited, cloud-hosted private, and public Git repos.
+ These let us create, host, and share packages.
+ SDLC
+ ISO
+ DRE
+ MTBF
+ MTTR
+ SAAM
+ ATAM
+ ADR
+ ARID
+ CBAM
+ ALMA
+ BIS
+ FAAM
+ ADL
+ IEEE
+ UML
+ ABFT
+ CFC
+ EDDI
+ EDAC
+ DMR
+ TMR
+ BER
+ FER
+ PSWT
+ ASBA

@@ -1,0 +1,73 @@
+is a wall or partition that is designed to prevent fire from spreading from one part of a building to another.
+ is designed to control, or filter, which communications are allowed in and which are allowed out of a device or network
+ can be installed on a single computer with the purpose of protecting that one computer 
+ it can be a stand-alone network device that protects an entire network of computers and all of the host devices on that network
+filtering based on source and destination IP addresses
+filtering based on source and destination data ports, and filtering based on connection states
+filtering based on application, program or service
+filtering based on the user, device, role, application type, and threat profile
+ filtering of web content requests like URL, domain, media, etc.
+  placed in front of web servers, protect, hide, offload, and distribute access to web servers
+  hides or masquerades the private addresses of network hosts
+  nat means?
+   filtering of ports and system service calls on a single computer operating system
+   is a process of probing a computer, server or other network host for open ports. 
+    In networking, each application running on a device is assigned an identifier called a?
+     can be used maliciously as a reconnaissance tool to identify the operating system and services running on a computer or host, or it can be used harmlessly by a network administrator to verify network security policies on the network.
+can be stand-alone devices, like a router or firewall, a card that can be installed into a network device, or a module with its own processor and cached memory.
+have many firewall capabilities besides just routing functions, including traffic filtering, the ability to run an Intrusion Prevention System (IPS), encryption, and VPN capabilities for secure encrypted tunneling.
+isr meaning?
+ are dedicated to intrusion prevention.
+ It is designed for secure encrypted tunneling.
+ This category includes web and email security appliances, decryption devices, client access control servers, and security management systems.
+ amp meaning?
+ comes in next generation devices and can also be installed as software in host computers.
+ has all the capabilities of an isr as well as advanced network management and analytics
+ apt meaning?
+ get more accurate, actionable data
+ use forensically sound information to understand suspicious behavior faster
+ proactively improve security infrastructure
+ consume and act on threat information faster, and in an automated manner
+ Knowing the value of what you are protecting will help in justifying security expenditures.
+ Create a policy that clearly outlines company rules, job duties, and expectations.
+  Restrict access to networking closets, server locations, as well as fire suppression.
+  Employees should be properly researched with background checks.
+  Perform regular backups and test data recovery from backups.
+Regularly update server, client, and network device operating systems and programs.
+Configure user roles and privilege levels as well as strong user authentication.
+Employ an incident response team and test emergency response scenarios.
+Choose a security monitoring solution that integrates with other technologies.
+Use next generation routers, firewalls, and other security appliances.
+Use enterprise level antimalware and antivirus software.
+ Educate users and employees in secure procedures.
+ Encrypt all sensitive company data including email.
+ is a group of bots, connected through the Internet, with the ability to be controlled by a malicious individual or group.
+ is typically infected by visiting a website, opening an email attachment, or opening an infected media file.
+ are typically controlled through a command and control server.
+  The attacker gathers information about the target.
+  The attacker creates an exploit and malicious payload to send to the target.
+  The attacker sends the exploit and malicious payload to the target by email or other method.
+  The exploit is executed.
+  Remote control of the target is gained through a command and control channel or server.
+  The attacker performs malicious actions like information theft, or executes additional attacks on other devices from within the network by working through the Kill Chain stages again.
+  is a form of threat detection that does not rely on known malicious signatures, but instead uses informational context to detect anomalies in the network.
+  is a behavior-based detection tool that first lures the attacker in by appealing to the attacker’s predicted pattern of malicious behavior, and then, when inside the honeypot, the network administrator can capture, log, and analyze the attacker’s behavior
+  This is a security architecture that uses behavior-based detection and indicators, to provide greater visibility, context, and control.
+   is used to gather information about data flowing through a network.
+    is able to collect information on usage through many different characteristics of how data is moved through the network, as shown in the figure.
+csirt meaning?
+is a collection of repeatable queries (reports) against security event data sources that lead to incident detection and response.
+siem means?
+ is software that collects and analyzes security alerts, logs and other real time and historical data from security devices on the network.
+ dlp means?
+ is a software or hardware system designed to stop sensitive data from being stolen from or escaping a network.
+ ids meaning?
+ is either a dedicated network device, or one of several tools in a server or firewall that scans data against a database of rules or attack signatures, looking for malicious traffic.
+ has the ability to block or deny traffic based on a positive rule or signature match.
+ cisco ise meaning?
+ enforce access to network resources by creating role-based access control policies that segment access to the network (guests, mobile users, employees) without added complexity.
+a conceptual outline of the stages of an information systems attack
+is an open source intrusion protection system (IPS) that is capable of performing real-time traffic and port analysis, packet logging, content searching and matching, as well as detecting probes, attacks, port scans, fingerprinting, and buffer overflow attacks.
+Malware and backdoors are installed on the target.
+who developed the cyber kill chian as a security framework for incident detection and response?
+helps ensure company, system, and data preservation by performing Comprehensive investigations into computer security incidents

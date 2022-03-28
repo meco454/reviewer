@@ -1,5 +1,6 @@
 import random
 
+
 # Checks if the pair of quez-answers are same length
 def check_lengths(list1, list2):
     if len(list1) != len(list2):
@@ -21,29 +22,39 @@ def create_choices(quez_num, answers_copy, ans_choice):
     while(True):
         choice_list = list(set(choice_list))
         if len(choice_list) < 4:
-            choice_list.insert(random.randint(0, len(choice_list)), random.choice(answers_copy))
+            choice_list.insert(random.randint(0, len(choice_list)), random.choice(ans_choice))
         else:
             break
     
     return choice_list
 
 # Function to create a round of review
-def start_round(quez_choice, ans_choice):
+def start_round(quez_choice, ans_choice, choices):
     quez_copy = quez_choice.copy()
     answers_copy = ans_choice.copy()
+    choices_copy = choices.copy()
 
     correct_answers = 0
     wrong_answers = 0
     counter = 1
     for x in range(len(quez_copy)):
 
+
+        if counter % 50 == 0:
+            input("Break time! Input any character to continue: ")
+
         # Picks a random item number based on quez length
         quez_num = random.choice(range(0, len(quez_copy)))
         print("Question # {}, {}".format(counter, quez_copy[quez_num]))
 
         # Create the choices for MC type
-        # added another argument so that choices will be from original answers list not the copy to avoid weird behavior later on
-        choice_list = create_choices(quez_num, answers_copy, ans_choice)
+        #if choices file exists, use that as choices, if not, then do the random selection of choices
+        if choices_copy:
+            choice_list = choices_copy[quez_num]
+        else:
+             # added another argument so that choices will be from original answers list not the copy to avoid weird behavior later on
+            choice_list = create_choices(quez_num, answers_copy, ans_choice)
+
         
         print("Choices: ", choice_list)
         user_answer = input("Enter your answer: ")
@@ -58,6 +69,7 @@ def start_round(quez_choice, ans_choice):
 
         quez_copy.pop(quez_num)
         answers_copy.pop(quez_num)
+
         counter+=1
 
     else: # End questions
@@ -65,12 +77,14 @@ def start_round(quez_choice, ans_choice):
         print("Stats: Correct answers:", correct_answers)
         print("Wrong Answers:", wrong_answers)
         print("Number of questions", len(quez_choice))
+        input("Press anything to exit program ")
 
 # Input: name of the subject/file to be loaded
 # Output: 2 lists: the quez list and ans list
-def load_items(quezname, ansname):
+def load_items(quezname, ansname, choicename = None):
     quez_list = []
     ans_list = []
+    choice_list = []
     
     f_quez = open(quezname, "r", encoding = "utf8")
     for item in f_quez:
@@ -82,7 +96,18 @@ def load_items(quezname, ansname):
         ans_list.append(str(item).strip())
     f_ans.close()
 
-    return quez_list, ans_list
+    try:
+        f_choice = open(choicename, "r", encoding = "utf8")
+        for item in f_choice:
+            choice_list.append(str(item).strip().split(","))
+        f_choice.close()
+
+        return quez_list, ans_list, choice_list
+
+    except:
+        return quez_list, ans_list, choice_list
+
+    
 
 # = = = = = = = = = = = =
 # MAIN FUNCTION GOES HERE
@@ -93,8 +118,9 @@ def main():
     print("1 - SEN02 Midterms")
     print("2 - IAS01 Midterms")
     print("3 - PTF03 Midterms")
-    print("4 - SEN02 Module 4 & 5")
-    print("69 - Enter your own file")
+    print("4 - SEN02 Final Exam")
+    print("7 - IAS MOD 4")
+    print("Any other input - Enter your own file")
     
     # I'm too lazy to handle error checking, just assume they put a number
     choicenum = int(input("Enter: "))
@@ -111,19 +137,14 @@ def main():
 
 #    The above part looks like it can be made less redundant with the following code:
 
-    if choicenum <= 0 and choicenum > 4 and choicenum != 69:
+    if choicenum <= 0 or choicenum > 7:
         print("Haiyaaaa, you fucked up")
         exit()
-    elif choicenum == 69:
-        input_quez_file = input("Enter name of quez file here:")
-        input_ans_file = input("Enter name of answer file here:")
-        questions, answers = load_items(f"{input_quez_file}", f"{input_ans_file}")
-
     else:
         # Used f-string to insert the choicenum
-        questions, answers = load_items(f"quez{choicenum}.txt", f"ans{choicenum}.txt")
+            questions, answers, choices = load_items(f"quez{choicenum}.txt", f"ans{choicenum}.txt", f"choice{choicenum}.txt")
+            start_round(questions, answers, choices)
     
-    check_lengths(questions, answers)
-    start_round(questions, answers)
+    
 
 main()

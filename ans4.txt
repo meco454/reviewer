@@ -1,195 +1,87 @@
-System failure
-Denial of Service
-Dyn
-Software Failures are Risky
-Software Failure
-Australia
-overpay
-Enterprise Resource Planning
-Risk management
-Identification
-Assessment
-Prioritization
-Identify risks
-Acknowledged
-Gravity of injury
-Probability of injury occurring
-human error
-application programming
-Human error in application programming
-small sign errors
-Hire an in-house programmer
-Find the right software provider to monitor your system
-Invest time and money into development and implementation
-programmer
-in-house programmer
-software provider
-development
-implementation
-Implementing a high-quality software
-software bugs
-Alogrithm Based Fault Tolerance
-Algorithm Based Fault Tolerance
-Algorithm Based Fault Tolerance
-Algorithm Based Fault Tolerance
-Algorithm Based Fault Tolerance
-Assertions
-Assertions
-Control Flow Checking 
-Control Flow Checking
-Control Flow Checking
-signature
-Control Flow Checking
-granularity
-Procedure Duplication
-Procedure Duplication
-Processors
-Procedure Duplication
-Procedure Duplication
-Procedure Duplication
-Error Detection by Duplicated Instructions
-Error Detection by Duplicated Instructions
-Error Detection by Duplicated Instructions
-Error Detection by Duplicated Instructions
-Error Detection by Duplicated Instructions
-Error Detection by Duplicated Instructions
-(Software Implemented) Error Detection and Correction
-Software Implemented Error Detection and Correction
-Software Implemented EDAC approaches 
-Software Implemented Error Detection and Correction
-Software Implemented Error Detection and Correction
-Periodic Memory Scrubbing
-Periodic Memory Scrubbing
-Periodic Memory Scrubbing
-Masking Redundancy
-Masking Redundancy
-Masking Redundancy
-Masking Redundancy
-Reconfiguration
-Reconfiguration
-Reconfiguration
-Replication
-Replication
-Replication
-ReStore Architecture
-ReStore Architecture
-ReStore Architecture
-Dual Modular Redundancy
-Backward Error Recovery
-Dual Modular Redundancy & Backward-Error Recovery & Checkpoint Error
-Dual Modular Redundancy
-Backward-Error Recovery
-Checkpoint
-Architectural registers and memory values
-Checkpoint
-Triple Modular Redundancy
-Forward-Error Recovery
-Triple Modular Redundancy & Forward - Error Recovery
-Triple Modular Redundancy
-Fingerprinting
-Fingerprinting 
-Fingerprinting
-Processor Status Word Tracking
-Processor Status Word Tracking
-Processor Status Word
-Application Semantic Based Assertions
-Application Semantic Based Assertions
-Application Semantic Based Assertions
-Checksum & Parity
-Checksum & Parity
-Checksum & Parity
-Matrix Checksums
-Matrix Checksums
-Arithmetic Sum & Difference Checks for a pair of elements
-Arithmetic Sum & Difference Checks for a pair of elements
-NOP-PSW Approach
-NOP-PSW Approach
-NOP-PSW Approach
-NOP-PSW Approach
-NOP-PSW Approach
-Electromagnetic Interference
-NOP-PSW 
-Five
-Incremental
-Iterative
-Identify Architecture Goal
-Key Scenarios
-Application Overview
-Key Issues or Key Hotspots
-Candidate Solutions
-Architecture goals
-consumer
-constraints
-Identify Architecture Goal
-Key Scenarios
-Scenario
-Key scenarios
-Key scenarios
-Key scenarios
-Application overview
-application type
-Identify Deployment Constraints
-Important Architecture Design Styles
-relevant technologies
-Identify the Relevant Technologies 
-hot spots
-Quality attributes
-Crosscutting concerns
-Crosscutting concerns 
-Candidate Solutions
-Candidate architecture
-Candidate architecture
-Candidate architecture
-Candidate solution design
-Architectural spikes
-Architectural spikes
-Architecture review
-Architecture review
-Architecture review
-Architecture review
-Architecture review
-Scenario-based evaluations
-Architecture design
-Software Architecture Analysis Method
+Architecture Review
+Candidate Architecture
+Coding Standards
+Cycle time
+DevOps
+Lead Time
+Scenario-based Evaluations
+Software Quality
+Team Velocity
+Corrective Maintenance
+Perfective Maintenance
+Adaptive Maintenance
+Communication
+Requirement Gathering
+Feasibility Study
+System Analysis
+Software Design
+Coding
+Testing
+Integration
+Implementation
+Operation and Maintenance
+Disposition
+Good design
+Reliability
+Durability
+Consistency
+Maintanability
+Value for money
+Management plan
+Proper checkpoints
+Security Concerns
+Performance Issues
 Software Architecture Analysis Method
 Architecture Tradeoff Analysis Method
-Architecture Tradeoff Analysis Method
-Active Design Review
 Active Design Review
 Active Reviews of Intermediate Designs
-Active Reviews of Intermediate Designs
-Cost Benefit Analysis Method
 Cost Benefit Analysis Method
 Architecture Level Modifiability Analysis
+Family Architecture Assessment Method
+Algorithm Based Fault Tolerance
+Assertions
+Control Flow Checking
+Procedure Duplication
+Error Detection by Duplicated Instructions
+Periodic Memory Scrubbing
+Masking Redundancy
+Reconfiguration
+Replication
+ReStore Architecture
+Dual Modular Redundancy
+Processor Status Word Tracking
+Application Semantic Based Assertions
+Checksum and Parity
+Matrix Checksums
+NOP-PSW Approach
+Azure Boards
+Azure Pipelines
+Azure Test Plans
+Azure Repos
+Azure Artifacts
+Software Development Life Cycle
+International Organization for Standardization
+Defect Removal Efficiency
+Meantime between Failures
+Meantime to Recover
+Software Architecture Analysis Method
+Architecture Tradeoff Analysis Method
+Active Design Review
+Active Reviews of Intermediate Designs
+Cost Benefit Analysis Method
 Architecture Level Modifiability Analysis
 Business Information Systems
 Family Architecture Assessment Method
-Family Architecture Assessment Method
-Communicating the Architecture Design
-4 + 1 Model
-4 + 1 Model
-4 + 1 Model
 Architecture Description Language
-Architecture Description Language
-Architecture Description Language
-Architecture Description Language
-Agile Modeling
-Agile Modeling
-Content
-Representation
-Agile Model Document
-IEEE 1471
-IEEE 1471
-IEEE 1471
-ANSI or IEEE 1471-2000
-Recommended Practice
-Architecture Description
-Software-Intensive Systems
+Institute of Electrical and Electronics Engineers
 Unified Modeling Language
-Unified Modeling Language
-Functional Requirements view
-Static structural view
-Dynamic behavior view
-functional requirements view
-static structural view
-dynamic behavior view
+Algorithm Based Fault Tolerance
+Control Flow Checking
+Error Detection by Duplicated Instructions
+Software Implemented Error Detection and Correction
+Dual Modular Redundancy
+Triple Modular Redundancy
+Backward-Error Recovery
+Forward-Error Recovery
+Processor Status Word Tracking
+Application Semantic Based Assertions
